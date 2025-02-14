@@ -7,7 +7,7 @@ import HeroCard from "./HeroCard";
 const Hero = () => {
   return (
     <>
-      <main className="relative min-h-[165vh] w-full mx-auto">
+      <main className="relative min-h-[170vh] w-full mx-auto">
         <Navbar />
         <div className="absolute inset-0 w-full h-full">
           <Image
