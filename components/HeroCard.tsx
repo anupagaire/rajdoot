@@ -66,7 +66,10 @@ const HeroCard = () => {
                   <h4 className="font-serif text-[#513c28]">
                     Monday to Sunday
                   </h4>
-                  <p className="text-[#776552]">10:30 am - 3:00 pm</p>
+                  <p className="text-[#776552]">
+                    11:00 am- 5:00 pm <br />
+                    6:00 pm - 11:00 pm
+                  </p>
                 </div>
               </div>
 
@@ -76,10 +79,10 @@ const HeroCard = () => {
                 </h3>
                 <div className="border-t border-[#d4b78f] pt-2 mt-1">
                   <h4 className="font-serif text-[#513c28]">
-                    Restaurant & Fine dining,
+                    G/F,Rear Portion,
                   </h4>
                   <p className="text-[#776552]">
-                    71 Madison Ave, New York, USA
+                    425Q Queen's Road West Shek <br /> Tong Tsui, Hong Kong
                   </p>
                 </div>
               </div>
@@ -89,8 +92,8 @@ const HeroCard = () => {
                   Booking Request
                 </h3>
                 <div className="border-t border-[#d4b78f] pt-2 mt-1">
-                  <p className="font-serif text-[#513c28]">+1890 123 456</p>
-                  <p className="text-[#776552]">+1891 345 888</p>
+                  <p className="font-serif text-[#513c28]">+852 2803 0095</p>
+                  <p className="text-[#776552]">+852 2803 0095</p>
                 </div>
               </div>
             </div>
