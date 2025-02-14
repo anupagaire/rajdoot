@@ -1,18 +1,144 @@
-import Image from 'next/image'
-import React from 'react'
+import {
+  Clock,
+  Facebook,
+  Instagram,
+  Mail,
+  MapPin,
+  PhoneCall,
+} from "lucide-react";
+import Image from "next/image";
+import React from "react";
 
 const Footer = () => {
   return (
-    <footer className='w-full'>
-        <div className='w-full max-w-screen-lg mx-auto'>
-            <div>
-                <Image src="/rajdootlogo.png" height={200} width={200} alt='logo' />
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, itaque repellendus. Quasi enim vel ipsam accusamus dicta excepturi, possimus officia doloribus dignissimos reprehenderit iste molestiae inventore voluptatum, deleniti recusandae pariatur.</p>
+    <footer className="w-full py-16">
+      <div className="max-w-screen-lg mx-auto px-6">
+        {/* Contact & Info Section */}
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full gap-8 mt-4 text-center md:text-left">
+          <div className="flex flex-col space-y-1">
+            <h3 className="text-[#8c6d46] font-semibold uppercase text-sm tracking-wider">
+              Opening Time
+            </h3>
+            <div className="border-t border-[#d4b78f] pt-2 mt-1">
+              <h4 className="font-serif text-[#513c28]">Opening Hours</h4>
+              <p className="text-[#776552]">
+                11:00 am- 5:00 pm <br /> 6:00 pm - 11:00 pm
+              </p>
             </div>
+          </div>
+
+          <div className="flex flex-col space-y-1">
+            <h3 className="text-[#8c6d46] font-semibold uppercase text-sm tracking-wider">
+              Contact us
+            </h3>
+            <div className="border-t border-[#d4b78f] pt-2 mt-1">
+              <h4 className="font-serif text-[#513c28]">Opening Hours</h4>
+              <a href="tel:+852 2803 0095" className="text-[#776552] flex items-center gap-x-2">
+                <PhoneCall className="h-5 w-5" />
+                +852 2803 0095
+              </a>
+              <a href="mailto:info@rajdoot.com.hk" className="text-[#776552] flex items-center gap-x-2">
+                <Mail className="h-5 w-5" />
+                info@rajdoot.com.hk
+              </a>
+            </div>
+          </div>
+
+          <div className="flex flex-col space-y-1">
+            <h3 className="text-[#8c6d46] font-semibold uppercase text-sm tracking-wider">
+              Location
+            </h3>
+            <div className="border-t border-[#d4b78f] pt-2 mt-1">
+              <h4 className="font-serif text-[#513c28]">G/F,Rear Portion,</h4>
+              <p className="text-[#776552]">
+                425Q Queen's Road West Shek Tong Tsui, Hong Kong
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-col space-y-1">
+            <h3 className="text-[#8c6d46] font-semibold uppercase text-sm tracking-wider">
+              Booking Request
+            </h3>
+            <div className="border-t border-[#d4b78f] pt-2 mt-1">
+              <p className="font-serif text-[#513c28]">+852 2803 0095</p>
+              <p className="text-[#776552]">+852 2803 0095</p>
+            </div>
+          </div>
         </div>
 
-    </footer>
-  )
-}
+        {/* Logo & Social Media */}
+        <div className="flex flex-col items-center border-gray-200 pt-16">
+          <Image
+            src="/rajdootlogo.png"
+            height={120}
+            width={120}
+            alt="Rajdoot Logo"
+            className="mb-8 filter grayscale invert"
+          />
 
-export default Footer
+          {/* Social Media Links */}
+          <div className="flex gap-8 mb-8">
+            <a
+              href="https://www.facebook.com/rajdoothk/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className=" transition"
+            >
+              <Facebook className="h-7 w-7" />
+            </a>
+            <a
+              href="https://www.instagram.com/rajdoothk/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className=" transition"
+            >
+              <Instagram className="h-7 w-7" />
+            </a>
+            <a
+              href="https://www.google.com/maps/place//@22.2860534,114.1361719,20z?entry=ttu"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MapPin className="h-7 w-7" />
+            </a>
+            <a
+              href="https://en.tripadvisor.com.hk/Restaurant_Review-g294217-d21229105-Reviews-Rajdoot_Restaurant_Bar-Hong_Kong.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/tripadvisor.png"
+                width={36}
+                height={36}
+                alt="Tripadvisor"
+              />
+            </a>
+            <a
+              href="https://www.openrice.com/en/hongkong/r-rajdoot-indian-nepalese-restaurant-western-district-indian-curry-r679321"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/openrice.png"
+                width={36}
+                height={36}
+                alt="OpenRice"
+                className="rounded-full"
+              />
+            </a>
+          </div>
+
+          {/* Copyright Notice */}
+          <p className="text-sm text-gray-500 text-center">
+            &copy; {new Date().getFullYear()} Rajdoot Indian & Nepali Cuisine +
+            Bar. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
