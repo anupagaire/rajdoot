@@ -6,7 +6,7 @@ const HeroCard = () => {
     <section className="w-full max-w-screen-lg mx-auto -mt-36 absolute left-1/2 transform -translate-x-1/2  z-20">
       {/* top right  */}
       <div className="bg-[#faf7f2] h-full w-full p-6 rounded-lg shadow-md relative">
-        <div className="h-24 w-24 md:h-32 md:w-32 bg-[#d4b78f] absolute rounded-full -top-10 -right-5 shadow-lg flex flex-col justify-center items-center">
+        <div className="hidden h-24 w-24 md:h-32 md:w-32 bg-[#d4b78f] absolute rounded-full -top-10 -right-5 shadow-lg lg:flex flex-col justify-center items-center">
           <div className="text-center">
             <h2 className="text-xl md:text-2xl text-white font-serif">
               <span className="text-sm md:text-base font-light italic block mb-1">
