@@ -20,8 +20,8 @@ const Hero = () => {
           <div className="absolute inset-0 bg-black/50"></div>
         </div>
 
-        <div className="relative h-screen w-full max-w-screen-lg mx-auto flex flex-col justify-center items-center text-white px-4 py-32 gap-y-5">
-          <h1 className="text-xl md:text-3xl lg:text-5xl font-bold mb-4 text-center">
+        <div className="relative h-screen w-full max-w-screen-md mx-auto flex flex-col justify-center items-center text-white px-4 py-32 gap-y-5">
+          <h1 className="text-xl md:text-3xl lg:text-5xl font-bold  text-center">
             Enjoy Delicious Nepali & Indian Foods
           </h1>
           <p className="text-base md:text-xl text-center max-w-2xl">
