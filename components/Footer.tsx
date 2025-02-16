@@ -29,21 +29,24 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col space-y-1">
-            <h3 className="text-[#8c6d46] font-semibold uppercase text-sm tracking-wider">
-              Contact us
-            </h3>
-            <div className="border-t border-[#d4b78f] pt-2 mt-1">
-              <h4 className="font-serif text-[#513c28]">Opening Hours</h4>
-              <a href="tel:+852 2803 0095" className="text-[#776552] flex items-center gap-x-2">
-                <PhoneCall className="h-5 w-5" />
-                +852 2803 0095
-              </a>
-              <a href="mailto:info@rajdoot.com.hk" className="text-[#776552] flex items-center gap-x-2">
-                <Mail className="h-5 w-5" />
-                info@rajdoot.com.hk
-              </a>
-            </div>
-          </div>
+  <h3 className="text-[#8c6d46] font-semibold uppercase text-sm tracking-wider">
+    Contact us
+  </h3>
+  <div className="border-t border-[#d4b78f] pt-2 mt-1">
+    <h4 className="font-serif text-[#513c28]">Opening Hours</h4>
+    <div className="flex flex-col sm:flex-row sm:items-center sm:gap-x-4 sm:justify-start justify-center items-center">
+      <a href="tel:+852 2803 0095" className="text-[#776552] flex items-center gap-x-2">
+        <PhoneCall className="h-5 w-5" />
+        +852 2803 0095
+      </a>
+      <a href="mailto:info@rajdoot.com.hk" className="text-[#776552] flex items-center gap-x-2">
+        <Mail className="h-5 w-5" />
+        info@rajdoot.com.hk
+      </a>
+    </div>
+  </div>
+</div>
+
 
           <div className="flex flex-col space-y-1">
             <h3 className="text-[#8c6d46] font-semibold uppercase text-sm tracking-wider">
