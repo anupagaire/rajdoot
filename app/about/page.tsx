@@ -53,7 +53,7 @@ const About = () => {
         <img className="hidden lg:block absolute -right-60 -top-20 opacity-5 z-10" src="/decoration1.png" alt="" />
         <img className="hidden lg:block absolute -left-60 bottom-20 opacity-5 z-10" src="/decoration2.png" alt="" />
 
-        <div className="max-w-screen-lg mx-auto">
+        <div className="max-w-screen-xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px]">
               <Image

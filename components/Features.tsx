@@ -20,7 +20,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="w-full py-5 lg:py-20 relative overflow-hidden">
+    <section className="w-full py-5 lg:py-10 relative overflow-hidden">
       {/* left decoration  */}
       <div className="hidden lg:block absolute -right-20 -top-5 opacity-20">
         <img src="/decoration2.png" alt="" />

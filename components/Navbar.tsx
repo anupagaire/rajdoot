@@ -1,5 +1,6 @@
 import { Menu } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
@@ -8,7 +9,7 @@ const Navbar = () => {
       <div className="w-full max-w-screen-sm h-full mx-auto">
         <div className="w-full flex justify-between items-center h-full text-white">
           <ul className="hidden md:flex gap-x-10 text-xl">
-            <li>Home</li>
+            <Link href="/">Home</Link>
             <li>Menu</li>
           </ul>
           <Image
@@ -18,8 +19,12 @@ const Navbar = () => {
             alt="Rajdoot Logo"
           />
           <ul className="hidden md:flex gap-x-10 text-xl">
-            <li>About</li>
-            <li>Contact</li>
+            <li>
+              <Link href="/about">About</Link>
+            </li>
+            <li>
+              <Link href="/contact">Contact</Link>
+            </li>
           </ul>
           {/* mobile menu */}
           <div className="md:hidden">

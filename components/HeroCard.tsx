@@ -3,7 +3,7 @@ import React from "react";
 
 const HeroCard = () => {
   return (
-    <section className="w-full max-w-screen-lg mx-auto -mt-36 absolute left-1/2 transform -translate-x-1/2  z-20">
+    <section className="w-full max-w-screen-lg mx-auto -mt-36 absolute left-1/2 transform -translate-x-1/2 z-20">
       {/* top right  */}
       <div className="bg-[#faf7f2] h-full w-full p-6 rounded-lg shadow-md relative">
         <div className="hidden h-24 w-24 md:h-32 md:w-32 bg-[#d4b78f] absolute rounded-full -top-10 -right-5 shadow-lg lg:flex flex-col justify-center items-center">
@@ -63,10 +63,10 @@ const HeroCard = () => {
                   Opening Time
                 </h3>
                 <div className="border-t border-[#d4b78f] pt-2 mt-1">
-                  <h4 className="font-serif text-[#513c28]">
+                  {/* <h4 className="font-serif text-[#513c28]">
                     Monday to Sunday
-                  </h4>
-                  <p className="text-[#776552]">
+                  </h4> */}
+                  <p className="text-[#513c28] font-serif">
                     11:00 am- 5:00 pm <br />
                     6:00 pm - 11:00 pm
                   </p>
@@ -78,10 +78,10 @@ const HeroCard = () => {
                   Location
                 </h3>
                 <div className="border-t border-[#d4b78f] pt-2 mt-1">
-                  <h4 className="font-serif text-[#513c28]">
+                  {/* <h4 className="font-serif text-[#513c28]">
                     G/F,Rear Portion,
-                  </h4>
-                  <p className="text-[#776552]">
+                  </h4> */}
+                  <p className="text-[#513c28] font-serif">
                     425Q Queen's Road West Shek <br /> Tong Tsui, Hong Kong
                   </p>
                 </div>
