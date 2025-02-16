@@ -30,6 +30,15 @@ const Foods = () => {
       {/* Menu Images Grid */}
       <section className="max-w-screen-xl w-full mx-auto p-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 lg:p-8">
+          <div className="flex justify-center">
+            <Image
+              src={`/drinks/1.png`}
+              height={500}
+              width={500}
+              alt={`Menu item`}
+              className="object-contain"
+            />
+          </div>
           {foods.map((number) => (
             <div key={number} className="flex justify-center">
               <Image
