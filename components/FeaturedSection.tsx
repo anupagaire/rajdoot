@@ -59,7 +59,7 @@ const FeaturedSection = () => {
             <div className="relative z-10 flex flex-col gap-y-3">
               <h1 className="text-3xl md:text-4xl font-bold text-yellow-300"></h1>
               <h1 className="text-3xl md:text-4xl font-bold text-white">
-                Authentic Indian & Nepali Cuisine
+                Authentic Indian & Nepali Cuisines
               </h1>
               <div className="bg-yellow-300 h-2 w-24"></div>
               <p className="text-lg md:text-xl text-white">

@@ -33,19 +33,19 @@ const Navbar = () => {
               <Link href="/about">About</Link>
             </li>
             <li>
-              <Link href="/contact">Contact</Link>
+              <Link href="/gallery">Gallery</Link>
             </li>
           </ul>
           
           {/* Mobile Menu Button */}
           <div className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
-            {isOpen ? <X /> : <Menu />}
+            {isOpen ? <X className="h-8 w-8"/> : <Menu />}
           </div>
         </div>
 
         {/* Mobile Menu */}
         <div
-          className={`fixed top-0 right-0 h-full w-64 bg-[#faf7f2] text-black p-6 transform transition-transform duration-300 ease-in-out ${isOpen ? "translate-x-0" : "translate-x-full"}`}
+          className={`fixed z-40 top-0 right-0 h-full w-64 bg-[#faf7f2] text-black p-6 transform transition-transform duration-300 ease-in-out ${isOpen ? "translate-x-0" : "translate-x-full"}`}
         >
           <div className="flex justify-end">
             <X onClick={() => setIsOpen(false)} />
