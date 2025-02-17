@@ -3,13 +3,24 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 
 const foodItems = [
-  { id: 1, src: "/thali.jpg", title: "Spicy Curry" },
-  { id: 2, src: "/thali.jpg", title: "Tandoori Chicken" },
-  { id: 3, src: "/thali.jpg", title: "Paneer Tikka" },
-  { id: 4, src: "/thali.jpg", title: "Biryani" },
-  { id: 5, src: "/thali.jpg", title: "Naan & Butter Chicken" },
-  { id: 6, src: "/thali.jpg", title: "Samosa Platter" },
+  { id: 1, src: "/gallery/1.webp", title: "Spicy Curry" },
+  { id: 2, src: "/gallery/2.webp", title: "Tandoori Chicken" },
+  { id: 3, src: "/gallery/3.webp", title: "Paneer Tikka" },
+  { id: 4, src: "/gallery/4.webp", title: "Biryani" },
+  { id: 5, src: "/gallery/5.webp", title: "Naan & Butter Chicken" },
+  { id: 6, src: "/gallery/6.webp", title: "Samosa Platter" },
+  { id: 7, src: "/gallery/7.webp", title: "Samosa Platter" },
+  { id: 8, src: "/gallery/8.webp", title: "Samosa Platter" },
+  { id: 9, src: "/gallery/9.webp", title: "Samosa Platter" },
+  { id: 11, src: "/gallery/11.jpg", title: "Samosa Platter" },
+  { id: 12, src: "/gallery/12.jpg", title: "Samosa Platter" },
+  { id: 13, src: "/gallery/13.jpg", title: "Samosa Platter" },
+  { id: 14, src: "/gallery/14.jpg", title: "Samosa Platter" },
+  { id: 15, src: "/gallery/15.jpg", title: "Samosa Platter" },
+  { id: 16, src: "/gallery/16.jpg", title: "Samosa Platter" },
+  { id: 17, src: "/gallery/17.jpg", title: "Samosa Platter" },
 ];
+
 
 const Gallery = () => {
   return (

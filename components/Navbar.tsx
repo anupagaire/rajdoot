@@ -63,6 +63,9 @@ const Navbar = () => {
             <li>
               <Link href="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
             </li>
+            <li>
+              <Link href="/gallery" onClick={() => setIsOpen(false)}>Gallery</Link>
+            </li>
           </ul>
         </div>
       </div>
