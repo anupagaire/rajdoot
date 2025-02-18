@@ -43,7 +43,7 @@ const Features = () => {
           {features.map((feature, index) => (
             <div 
               key={index}
-              className="flex flex-col items-center p-10 border border-[#d4b78f] rounded-lg duration-300"
+              className="flex flex-col items-center p-10 border-2 border-[#d4b78f] rounded-lg duration-300 hover:shadow-lg"
             >
               <div className="mb-6 transform hover:scale-105 transition-transform duration-300">
                 <img 

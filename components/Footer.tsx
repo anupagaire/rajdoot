@@ -12,6 +12,15 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="w-full py-16">
+      <div className="mt-12 w-full max-w-screen-xl mx-auto my-20 rounded-lg h-[450px]">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.943919616855!2d114.13578962847058!3d22.286485698725762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403ff891ad130e3%3A0x85d6a2c67c48bd30!2sRajdoot%20Indian%20%26%20Nepalese%20Restaurant!5e0!3m2!1sen!2snp!4v1739695401427!5m2!1sen!2snp"
+          className="w-full h-full border-none px-5"
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      </div>
       <div className="max-w-screen-lg mx-auto px-6">
         {/* Contact & Info Section */}
 
@@ -29,24 +38,29 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col space-y-1">
-  <h3 className="text-[#8c6d46] font-semibold uppercase text-sm tracking-wider">
-    Contact us
-  </h3>
-  <div className="border-t border-[#d4b78f] pt-2 mt-1">
-    <h4 className="font-serif text-[#513c28]">Opening Hours</h4>
-    {/* <div className="flex flex-col sm:flex-row sm:items-center sm:gap-x-4 sm:justify-start justify-center items-center"> */}
-      <a href="tel:+852 2803 0095" className="text-[#776552] flex items-center justify-center lg:justify-normal gap-x-2">
-        <PhoneCall className="h-5 w-5" />
-        +852 2803 0095
-      </a>
-      <a href="mailto:info@rajdoot.com.hk" className="text-[#776552] flex items-center justify-center lg:justify-normal gap-x-2">
-        <Mail className="h-5 w-5" />
-        info@rajdoot.com.hk
-      </a>
-    {/* </div> */}
-  </div>
-</div>
-
+            <h3 className="text-[#8c6d46] font-semibold uppercase text-sm tracking-wider">
+              Contact us
+            </h3>
+            <div className="border-t border-[#d4b78f] pt-2 mt-1">
+              <h4 className="font-serif text-[#513c28]">Opening Hours</h4>
+              {/* <div className="flex flex-col sm:flex-row sm:items-center sm:gap-x-4 sm:justify-start justify-center items-center"> */}
+              <a
+                href="tel:+852 2803 0095"
+                className="text-[#776552] flex items-center justify-center lg:justify-normal gap-x-2"
+              >
+                <PhoneCall className="h-5 w-5" />
+                +852 2803 0095
+              </a>
+              <a
+                href="mailto:info@rajdoot.com.hk"
+                className="text-[#776552] flex items-center justify-center lg:justify-normal gap-x-2"
+              >
+                <Mail className="h-5 w-5" />
+                info@rajdoot.com.hk
+              </a>
+              {/* </div> */}
+            </div>
+          </div>
 
           <div className="flex flex-col space-y-1">
             <h3 className="text-[#8c6d46] font-semibold uppercase text-sm tracking-wider">
@@ -134,9 +148,20 @@ const Footer = () => {
           </div>
 
           {/* Copyright Notice */}
-          <p className="text-sm text-gray-500 text-center">
+          <p className="text-sm lg:text-base text-gray-500 text-center">
             &copy; {new Date().getFullYear()} Rajdoot Indian & Nepali Cuisine +
             Bar. All Rights Reserved.
+            <br />
+            <span>
+              By{" "}
+              <a
+                target="_blank"
+                href="https://squarelabs.com.np/"
+                className="hover:text-green-700 italic"
+              >
+                SquareLabs Pvt.Ltd
+              </a>
+            </span>
           </p>
         </div>
       </div>

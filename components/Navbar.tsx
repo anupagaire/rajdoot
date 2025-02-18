@@ -18,10 +18,10 @@ const Navbar = () => {
           <ul className="hidden md:flex gap-x-10 text-xl">
             <li>
               <Link
-                href="/"
-                className={`${pathname == "/" ? "text-[#d4b78f]" : ""}`}
+                href="/contact"
+                className={`${pathname == "/contact" ? "text-[#d4b78f]" : ""}`}
               >
-                Home
+                Contact
               </Link>
             </li>
             <li>

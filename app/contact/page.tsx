@@ -30,7 +30,7 @@ const Contact = () => {
 
       {/* section */}
 
-      <section className="w-full max-w-screen-xl mx-auto px-4 py-16">
+      <section className="w-full max-w-screen-xl mx-auto px-4 pt-16">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Opening Time */}
         <div className="group bg-white p-8 border border-[#d4b78f] hover:border-[#8c6d46] transition-colors duration-300">
@@ -106,16 +106,6 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="mt-12 w-full h-[450px]">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.943919616855!2d114.13578962847058!3d22.286485698725762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403ff891ad130e3%3A0x85d6a2c67c48bd30!2sRajdoot%20Indian%20%26%20Nepalese%20Restaurant!5e0!3m2!1sen!2snp!4v1739695401427!5m2!1sen!2snp"
-          className="w-full h-full border-none"
-          allowFullScreen=""
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        />
       </div>
     </section>
     </div>
