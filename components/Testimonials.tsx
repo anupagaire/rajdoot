@@ -1,33 +1,61 @@
 import React from "react";
 
+const testimonials = [
+  {
+    name: "Rajesh Karki",
+    text: "The flavors here remind me of home! The butter chicken was rich and creamy, and the momos were simply the best in Hong Kong. A must-visit place for Indian and Nepali food lovers!",
+    img: "https://images.pexels.com/photos/897817/pexels-photo-897817.jpeg?auto=compress&cs=tinysrgb&w=600",
+  },
+  {
+    name: "Anita Sharma",
+    text: "Absolutely loved the ambiance and the food. The tandoori platter was sizzling and packed with flavor. The staff was warm and welcoming can't wait to return!",
+    img: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=600",
+  },
+  {
+    name: "Michael Wong",
+    text: "A hidden gem in Hong Kong! The Nepali thali set was a delightful experience, full of authentic flavors. Pairing it with a lassi was the best decision!",
+    img: "https://images.pexels.com/photos/377976/pexels-photo-377976.jpeg?auto=compress&cs=tinysrgb&w=600",
+  },
+];
+
 const Testimonials = () => {
   return (
-    <section className="min-h-screen w-full my-10">
-      <div className="w-full max-w-screen-xl mx-auto flex flex-col justify-center items-center">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 italic px-4 text-center">
-          What our clients say about us?
+    <section className="pt-16 sm:px-10 w-full mx-auto">
+      <div className="max-w-6xl mx-auto text-center">
+        <h1 className="text-3xl md:text-5xl font-bold text-gray-800 italic">
+          What Our Guests Say
         </h1>
+        <p className="text-gray-600 mt-4 text-lg md:text-xl">
+          Experience the authentic taste of India & Nepal through our guests' words.
+        </p>
+      </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-          <div>
-            <p>
-              {" "}
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              voluptatibus illum voluptate, excepturi, in doloremque doloribus,
-              suscipit vel ipsa eum nemo ullam harum odio corrupti fugiat
-              deleniti pariatur a sapiente earum consequatur facere ut iste
-              ipsum! Nisi sit adipisci sint.
-            </p>
-            <div>
-              <img
-                src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600"
-                alt=""
-              />
-              <h4>Yogesh Shrestha</h4>
-            </div>
+      <section className="w-full py-5 lg:py-10">
+        <div className="w-full max-w-screen-xl mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+            {testimonials.map((testimonial, index) => (
+              <div
+                key={index}
+                className="flex flex-col items-center p-8 border-2 border-[#d4b78f] rounded-lg duration-300 hover:shadow-lg"
+              >
+                <p className="text-gray-700 text-center leading-relaxed italic">
+                  "{testimonial.text}"
+                </p>
+                <div className="flex flex-col items-center mt-4">
+                  <img
+                    src={testimonial.img}
+                    alt={testimonial.name}
+                    className="h-14 w-14 object-cover rounded-full border-2 border-[#d4b78f]"
+                  />
+                  <h2 className="text-xl font-semibold text-gray-800 mt-2">
+                    {testimonial.name}
+                  </h2>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
-      </div>
+      </section>
     </section>
   );
 };
