@@ -152,7 +152,7 @@ const Footer = () => {
             Bar. All Rights Reserved.
             <br />
             <span>
-              By{" "}
+              With 💚 By{" "}
               <a
                 target="_blank"
                 href="https://squarelabs.com.np/"
