@@ -3,24 +3,43 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 
 const foodItems = [
-  { id: 1, src: "/gallery/1.webp", title: "Spicy Curry" },
-  { id: 2, src: "/gallery/2.webp", title: "Tandoori Chicken" },
-  { id: 3, src: "/gallery/3.webp", title: "Paneer Tikka" },
-  { id: 4, src: "/gallery/4.webp", title: "Biryani" },
-  { id: 5, src: "/gallery/5.webp", title: "Naan & Butter Chicken" },
-  { id: 6, src: "/gallery/6.webp", title: "Samosa Platter" },
-  { id: 7, src: "/gallery/7.webp", title: "Samosa Platter" },
-  { id: 8, src: "/gallery/8.webp", title: "Samosa Platter" },
-  { id: 9, src: "/gallery/9.webp", title: "Samosa Platter" },
-  { id: 11, src: "/gallery/11.jpg", title: "Samosa Platter" },
-  { id: 12, src: "/gallery/12.jpg", title: "Samosa Platter" },
-  { id: 13, src: "/gallery/13.jpg", title: "Samosa Platter" },
-  { id: 14, src: "/gallery/14.jpg", title: "Samosa Platter" },
-  { id: 15, src: "/gallery/15.jpg", title: "Samosa Platter" },
-  { id: 16, src: "/gallery/16.jpg", title: "Samosa Platter" },
-  { id: 17, src: "/gallery/17.jpg", title: "Samosa Platter" },
+  { id: 1, src: "/foods/1.png", title: "Food" },
+  { id: 2, src: "/foods/2.png", title: "Food" },
+  { id: 3, src: "/foods/3.png", title: "Food" },
+  { id: 4, src: "/foods/4.png", title: "Food" },
+  { id: 5, src: "/foods/5.png", title: "Food" },
+  { id: 6, src: "/foods/6.png", title: "Food" },
+  { id: 7, src: "/foods/7.png", title: "Food" },
+  { id: 8, src: "/foods/8.png", title: "Food" },
+  { id: 9, src: "/foods/9.png", title: "Food" },
+  { id: 10, src: "/foods/10.png", title: "Food" },
+  { id: 11, src: "/foods/11.png", title: "Food" },
+  { id: 12, src: "/foods/12.png", title: "Food" },
+  { id: 13, src: "/foods/13.jpg", title: "Food" },
+  { id: 14, src: "/foods/14.jpg", title: "Food" },
+  { id: 15, src: "/foods/15.jpg", title: "Food" },
+  { id: 16, src: "/foods/16.jpg", title: "Food" },
+  { id: 17, src: "/foods/17.jpg", title: "Food" },
+  { id: 18, src: "/foods/18.jpg", title: "Food" },
+  { id: 19, src: "/foods/19.jpg", title: "Food" },
+  { id: 20, src: "/foods/20.jpg", title: "Food" },
+  { id: 21, src: "/foods/21.png", title: "Food" },
+  { id: 22, src: "/foods/22.png", title: "Food" },
+  { id: 23, src: "/foods/23.png", title: "Food" },
+  { id: 24, src: "/foods/24.jpg", title: "Food" },
+  { id: 25, src: "/foods/25.jpg", title: "Food" },
+  { id: 26, src: "/foods/26.jpg", title: "Food" },
+  { id: 27, src: "/foods/27.jpg", title: "Food" },
+  { id: 28, src: "/foods/28.jpg", title: "Food" },
+  { id: 29, src: "/foods/29.jpg", title: "Food" },
+  { id: 30, src: "/foods/30.jpg", title: "Food" },
+  { id: 31, src: "/foods/31.jpg", title: "Food" },
+  { id: 32, src: "/foods/32.jpg", title: "Food" },
+  { id: 32, src: "/foods/33.jpg", title: "Food" },
+  { id: 32, src: "/foods/34.jpg", title: "Food" },
+  { id: 32, src: "/foods/35.jpg", title: "Food" },
+  { id: 32, src: "/foods/36.jpg", title: "Food" },
 ];
-
 
 const Gallery = () => {
   return (
@@ -42,7 +61,7 @@ const Gallery = () => {
         <div className="relative mx-auto max-w-screen-lg w-full min-h-[50vh] flex flex-col justify-center items-center text-white text-center px-4 pt-10">
           <h1 className="text-4xl font-bold mb-4">Gallery</h1>
           <p className="text-lg italic">
-            "A Taste of India & Nepal, Right in Hong Kong!"
+            &quot;A Taste of India & Nepal, Right in Hong Kong!&quot;
           </p>
         </div>
       </section>

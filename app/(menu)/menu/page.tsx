@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 
-// Create array of numbers from 1 to 11 for image mapping
 const foods = Array.from({ length: 11 }, (_, i) => i + 1);
 
 const Foods = () => {
@@ -32,7 +31,7 @@ const Foods = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 lg:p-8">
           <div className="flex justify-center">
             <Image
-              src={`/drinks/1.png`}
+              src={`/drinks/drinks.png`}
               height={500}
               width={500}
               alt={`Menu item`}
@@ -42,7 +41,7 @@ const Foods = () => {
           {foods.map((number) => (
             <div key={number} className="flex justify-center">
               <Image
-                src={`/foods/${number}.png`}
+                src={`/menu/${number}.png`}
                 height={500}
                 width={500}
                 alt={`Menu item ${number}`}

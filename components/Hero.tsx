@@ -35,8 +35,8 @@ const Hero = () => {
             Enjoy Delicious Nepali & Indian Foods
           </h1>
           <p className="text-lg sm:text-xl text-center max-w-2xl leading-relaxed italic">
-            "A place where every plate of dishes becomes a real work of art that
-            you can enjoy on your lips."
+            &quot;A place where every plate of dishes becomes a real work of art that
+            you can enjoy on your lips.&quot;
           </p>
           <div className="flex gap-4">
             <button className="px-6 py-4 text-lg border">

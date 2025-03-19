@@ -50,14 +50,22 @@ const About = () => {
 
       {/* Content Section */}
       <section className="py-5 lg:py-10 px-4 relative overflow-hidden z-20">
-        <img className="hidden lg:block absolute -right-60 -top-20 opacity-5 z-10" src="/decoration1.png" alt="" />
-        <img className="hidden lg:block absolute -left-60 bottom-20 opacity-5 z-10" src="/decoration2.png" alt="" />
+        <img
+          className="hidden lg:block absolute -right-60 -top-20 opacity-5 z-10"
+          src="/decoration1.png"
+          alt=""
+        />
+        <img
+          className="hidden lg:block absolute -left-60 bottom-20 opacity-5 z-10"
+          src="/decoration2.png"
+          alt=""
+        />
 
         <div className="max-w-screen-xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px]">
               <Image
-                src="/rajdoot.jpg"
+                src="/place/2.jpg"
                 fill
                 className="object-cover rounded-lg"
                 alt="Rajdoot restaurant interior"
@@ -71,11 +79,11 @@ const About = () => {
               </h1>
               <div className="bg-yellow-300 h-2 w-24"></div>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Nestled in the heart of Shek Tong Tsui at 425Q Queen's Road
+                Nestled in the heart of Shek Tong Tsui at 425Q Queen&apos;s Road
                 West, Rajdoot brings you an authentic blend of Indian and
                 Nepalese cuisine. Our restaurant is more than just a dining
-                establishment – it's a culinary journey through the rich flavors
-                of the Indian subcontinent.
+                establishment – it&apos;s a culinary journey through the rich
+                flavors of the Indian subcontinent.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Our recipes are a perfect harmony of traditional Indian
@@ -87,18 +95,29 @@ const About = () => {
             </div>
           </div>
 
-          {/* Culinary Philosophy Section */}
-          <div className="my-16 text-center max-w-3xl mx-auto">
-            <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">
-              Our Philosophy
-            </h3>
-            <p className="text-gray-600 text-lg leading-relaxed">
-              At Rajdoot, we believe in creating individual masterpieces. Each
-              dish is cooked on gentle heat, allowing the spices to blend
-              perfectly and create their own unique character. We are committed
-              to providing not just exceptional food, but also outstanding
-              service to ensure your dining experience is memorable.
-            </p>
+          <div className="grid md:grid-cols-2 gap-12 items-center my-10 md:my-20">
+            <div className="space-y-3">
+              <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-8 md:mt-0">
+                Our Philosophy
+              </h1>
+              <div className="bg-yellow-300 h-2 w-24"></div>
+              <p className="text-gray-600 text-lg leading-relaxed">
+                At Rajdoot, we believe in creating individual masterpieces. Each
+                dish is cooked on gentle heat, allowing the spices to blend
+                perfectly and create their own unique character. We are
+                committed to providing not just exceptional food, but also
+                outstanding service to ensure your dining experience is
+                memorable.
+              </p>
+            </div>
+            <div className="relative h-[400px]">
+              <Image
+                src="/place/1.jpg"
+                fill
+                className="object-cover rounded-lg"
+                alt="Rajdoot restaurant interior"
+              />
+            </div>
           </div>
 
           {/* Features Grid */}

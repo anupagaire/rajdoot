@@ -1,5 +1,4 @@
 import {
-  Clock,
   Facebook,
   Instagram,
   Mail,
@@ -68,7 +67,7 @@ const Footer = () => {
             <div className="border-t border-[#d4b78f] pt-2 mt-1">
               <h4 className="font-serif text-[#513c28]">G/F,Rear Portion,</h4>
               <p className="text-[#776552]">
-                425Q Queen's Road West Shek Tong Tsui, Hong Kong
+                425Q Queen&apos;s Road West Shek Tong Tsui, Hong Kong
               </p>
             </div>
           </div>

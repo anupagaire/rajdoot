@@ -9,7 +9,7 @@ const FeaturedSection = () => {
         <div className="flex flex-col-reverse md:flex-row h-screen">
           <div className="w-full md:w-1/2 h-1/2 md:h-full">
             <Image
-              src="https://images.unsplash.com/photo-1620641606872-f9641b65adab?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aW5kaWFuJTIwY2hlZnxlbnwwfHwwfHx8MA%3D%3D"
+              src="/prochef.jpg"
               alt="Professional chef"
               width={600}
               height={800}

@@ -2,19 +2,19 @@ import React from "react";
 
 const testimonials = [
   {
-    name: "Rajesh Karki",
+    name: "Dilip KC",
     text: "The flavors here remind me of home! The butter chicken was rich and creamy, and the momos were simply the best in Hong Kong. A must-visit place for Indian and Nepali food lovers!",
-    img: "https://images.pexels.com/photos/897817/pexels-photo-897817.jpeg?auto=compress&cs=tinysrgb&w=600",
+    img: "",
   },
   {
     name: "Anita Sharma",
     text: "Absolutely loved the ambiance and the food. The tandoori platter was sizzling and packed with flavor. The staff was warm and welcoming can't wait to return!",
-    img: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=600",
+    img: "",
   },
   {
     name: "Michael Wong",
     text: "A hidden gem in Hong Kong! The Nepali thali set was a delightful experience, full of authentic flavors. Pairing it with a lassi was the best decision!",
-    img: "https://images.pexels.com/photos/377976/pexels-photo-377976.jpeg?auto=compress&cs=tinysrgb&w=600",
+    img: "",
   },
 ];
 
@@ -26,7 +26,7 @@ const Testimonials = () => {
           What Our Guests Say
         </h1>
         <p className="text-gray-600 mt-4 text-lg md:text-xl">
-          Experience the authentic taste of India & Nepal through our guests' words.
+          Experience the authentic taste of India & Nepal through our guests&apos; words.
         </p>
       </div>
 
@@ -39,7 +39,7 @@ const Testimonials = () => {
                 className="flex flex-col items-center p-8 border-2 border-[#d4b78f] rounded-lg duration-300 hover:shadow-lg"
               >
                 <p className="text-gray-700 text-center leading-relaxed italic">
-                  "{testimonial.text}"
+                &quot;{testimonial.text}&quot;
                 </p>
                 <div className="flex flex-col items-center mt-4">
                   <img
