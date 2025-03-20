@@ -1,10 +1,4 @@
-import {
-  Facebook,
-  Instagram,
-  Mail,
-  MapPin,
-  PhoneCall,
-} from "lucide-react";
+import { Facebook, Instagram, Mail, MapPin, PhoneCall } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -22,16 +16,14 @@ const Footer = () => {
       <div className="max-w-screen-lg mx-auto px-6">
         {/* Contact & Info Section */}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full gap-8 mt-4 text-center md:text-left">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-8 mt-4 text-center md:text-left">
           <div className="flex flex-col space-y-1">
             <h3 className="text-[#8c6d46] font-semibold uppercase text-sm tracking-wider">
               Opening Time
             </h3>
             <div className="border-t border-[#d4b78f] pt-2 mt-1">
               <h4 className="font-serif text-[#513c28]">Opening Hours</h4>
-              <p className="text-[#776552]">
-                11:00 am- 5:00 pm <br /> 6:00 pm - 11:00 pm
-              </p>
+              <p className="text-[#776552]">11 am to 11 pm</p>
             </div>
           </div>
 
@@ -43,18 +35,18 @@ const Footer = () => {
               <h4 className="font-serif text-[#513c28]">Opening Hours</h4>
               {/* <div className="flex flex-col sm:flex-row sm:items-center sm:gap-x-4 sm:justify-start justify-center items-center"> */}
               <a
-                href="tel:+852 2803 0095"
+                href="tel:+852 59567426"
                 className="text-[#776552] flex items-center justify-center lg:justify-normal gap-x-2"
               >
                 <PhoneCall className="h-5 w-5" />
-                +852 2803 0095
+                +852 59567426
               </a>
               <a
-                href="mailto:info@rajdoot.com.hk"
+                href="mailto:rajdoot0909@gmail.com"
                 className="text-[#776552] flex items-center justify-center lg:justify-normal gap-x-2"
               >
                 <Mail className="h-5 w-5" />
-                info@rajdoot.com.hk
+                rajdoot0909@gmail.com
               </a>
               {/* </div> */}
             </div>
@@ -65,32 +57,31 @@ const Footer = () => {
               Location
             </h3>
             <div className="border-t border-[#d4b78f] pt-2 mt-1">
-              <h4 className="font-serif text-[#513c28]">G/F,Rear Portion,</h4>
-              <p className="text-[#776552]">
-                425Q Queen&apos;s Road West Shek Tong Tsui, Hong Kong
-              </p>
+              <h4 className="font-serif text-[#513c28]">
+                G/F, 1J WATER STREET,
+              </h4>
+              <p className="text-[#776552]">SAI YING PUN,HONG KONG</p>
             </div>
           </div>
 
-          <div className="flex flex-col space-y-1">
+          {/* <div className="flex flex-col space-y-1">
             <h3 className="text-[#8c6d46] font-semibold uppercase text-sm tracking-wider">
               Booking Request
             </h3>
             <div className="border-t border-[#d4b78f] pt-2 mt-1">
-              <p className="font-serif text-[#513c28]">+852 2803 0095</p>
-              <p className="text-[#776552]">+852 2803 0095</p>
+              <p className="font-serif text-[#513c28]">+852 59567426</p>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Logo & Social Media */}
         <div className="flex flex-col items-center border-gray-200 pt-16">
           <Image
-            src="/rajdootlogo.png"
+            src="/logo.png"
             height={120}
             width={120}
             alt="Rajdoot Logo"
-            className="mb-8 filter grayscale invert"
+            className="mb-8"
           />
 
           {/* Social Media Links */}
@@ -129,26 +120,13 @@ const Footer = () => {
                 height={36}
                 alt="Tripadvisor"
               />
-            </a>
-            <a
-              href="https://www.openrice.com/en/hongkong/r-rajdoot-indian-nepalese-restaurant-western-district-indian-curry-r679321"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/openrice.png"
-                width={36}
-                height={36}
-                alt="OpenRice"
-                className="rounded-full"
-              />
-            </a>
+            </a>           
           </div>
 
           {/* Copyright Notice */}
           <p className="text-sm lg:text-base text-gray-500 text-center">
-            &copy; {new Date().getFullYear()} Rajdoot Indian & Nepali Cuisine +
-            Bar. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Rajdoot Indian , Western &
+            Nepalese Cuisine + Bar. All Rights Reserved.
             <br />
             <span>
               With 💚 By{" "}

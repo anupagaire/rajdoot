@@ -31,7 +31,7 @@ const Navbar = () => {
 
             {/* Logo */}
             <Link href="/">
-              <Image src="/rajdootlogo.png" height={150} width={150} alt="Rajdoot Logo" />
+              <Image src="/logo.png" height={150} width={150} alt="Rajdoot Logo" />
             </Link>
 
             {/* Desktop Menu */}

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 
 const testimonials = [
@@ -43,12 +42,6 @@ const Testimonials = () => {
                 <p className="text-gray-700 text-center leading-relaxed italic">
                   &quot;{testimonial.text}&quot;
                 </p>
-                <span className="text-xs italic">
-                  reviews from{" "}
-                  <Link href="https://www.openrice.com/en/hongkong/r-rajdoot-indian-nepalese-restaurant-western-district-indian-curry-r679321">
-                    (OpenRice)
-                  </Link>
-                </span>
                 <div className="flex flex-col items-center mt-4">
                   <img
                     src={testimonial.img}

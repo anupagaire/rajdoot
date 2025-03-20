@@ -32,11 +32,11 @@ const Hero = () => {
 
         <div className="relative h-screen w-full max-w-screen-lg mx-auto flex flex-col justify-center items-center text-white px-6 sm:px-8 py-24 gap-y-6">
           <h1 className="text-4xl sm:text-5xl font-bold text-center leading-tight">
-            Enjoy Delicious Nepali & Indian Foods
+            Enjoy Delicious Indian , Western & Nepalese Cuisines
           </h1>
           <p className="text-lg sm:text-xl text-center max-w-2xl leading-relaxed italic">
-            &quot;A place where every plate of dishes becomes a real work of art that
-            you can enjoy on your lips.&quot;
+            &quot;A place where every plate of dishes becomes a real work of art
+            that you can enjoy on your lips.&quot;
           </p>
           <div className="flex gap-4">
             <button className="px-6 py-4 text-lg border">

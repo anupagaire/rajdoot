@@ -79,8 +79,8 @@ const About = () => {
               </h1>
               <div className="bg-yellow-300 h-2 w-24"></div>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Nestled in the heart of Shek Tong Tsui at 425Q Queen&apos;s Road
-                West, Rajdoot brings you an authentic blend of Indian and
+                Nestled in the heart of G/F, 1J WATER STREET,SAI YING PUN, HONG
+                KONG, Rajdoot brings you an authentic blend of Indian and
                 Nepalese cuisine. Our restaurant is more than just a dining
                 establishment – it&apos;s a culinary journey through the rich
                 flavors of the Indian subcontinent.

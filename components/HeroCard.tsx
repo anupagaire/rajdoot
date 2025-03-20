@@ -22,11 +22,10 @@ const HeroCard = () => {
             {/* Logo and Headline */}
             <div className="flex flex-col items-center space-y-2">
               <Image
-                src="/rajdootlogo.png"
+                src="/logo.png"
                 height={100}
                 width={100}
                 alt="rajdoot logo"
-                className="filter invert grayscale"
               />
               <div className="text-center">
                 <h2 className="text-xl md:text-2xl text-[#8c6d46] italic font-light">
@@ -41,8 +40,8 @@ const HeroCard = () => {
             {/* Carousel Placeholder */}
             <div className="w-full">
               <div className="bg-[#f0e9db] p-4 rounded-md text-lg text-center text-[#513c28]">
-                [Rajdoot Indian & Nepali Cuisine + Bar – Authentic Flavors,
-                Unforgettable Taste!]
+                [Rajdoot Indian , Western & Nepalese Cuisines – Authentic
+                Flavors, Unforgettable Taste!]
               </div>
             </div>
 
@@ -67,10 +66,15 @@ const HeroCard = () => {
                   {/* <h4 className="font-serif text-[#513c28]">
                     Monday to Sunday
                   </h4> */}
-                  <p className="text-[#513c28] font-serif">
-                    11:00 am- 5:00 pm <br />
-                    6:00 pm - 11:00 pm
-                  </p>
+                  <p className="text-[#513c28] font-serif">11 AM to 11 PM</p>{" "}
+                  <br />
+                  <span className="font-semibold">
+                    Lunch 11:00 AM - 3:30 PM
+                  </span>{" "}
+                  <br />
+                  <span className="font-semibold">
+                    Dinner 5:00 PM- 11:30 PM
+                  </span>
                 </div>
               </div>
 
@@ -83,7 +87,7 @@ const HeroCard = () => {
                     G/F,Rear Portion,
                   </h4> */}
                   <p className="text-[#513c28] font-serif">
-                    425Q Queen&apos;s Road West Shek <br /> Tong Tsui, Hong Kong
+                    G/F, 1J WATER STREET,SAI YING PUN,HONG KONG
                   </p>
                 </div>
               </div>
@@ -93,8 +97,16 @@ const HeroCard = () => {
                   Contact
                 </h3>
                 <div className="border-t border-[#d4b78f] pt-2 mt-1">
-                  <p className="font-serif text-[#513c28]">+852 2803 0095</p>
-                  <p className="text-[#776552]">+852 2803 0095</p>
+                  <a
+                    href="tel:+852 59567426"
+                    className="font-serif text-[#513c28]"
+                  >
+                    +852 59567426
+                  </a>
+                  <br />
+                  <a href="tel:+852 59567426" className="text-[#776552]">
+                    +852 59567426
+                  </a>
                 </div>
               </div>
             </div>

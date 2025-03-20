@@ -1,28 +1,30 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { Geist, Geist_Mono } from "next/font/google"
-import "./globals.css"
-import Footer from "@/components/Footer"
-import Script from "next/script"
+import type React from "react";
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+import Footer from "@/components/Footer";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
-})
+});
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
-})
+});
 
 export const metadata: Metadata = {
-  title: "Rajdoot Indian & Nepali Cuisine + Bar | Authentic Food in Hong Kong",
+  title:
+    "Rajdoot Indian, Western & Nepali Cuisine + Bar | Authentic Food in Hong Kong",
   description:
-    "Experience authentic Indian and Nepali cuisine at Rajdoot Restaurant in Hong Kong. Enjoy our diverse menu featuring traditional dishes, cocktails, and a warm atmosphere.",
+    "Experience authentic Indian, Western and Nepali cuisine at Rajdoot Restaurant in Hong Kong. Enjoy our diverse menu featuring traditional dishes, cocktails, and a warm atmosphere.",
   keywords: [
     "Indian restaurant Hong Kong",
     "Nepali cuisine",
     "Rajdoot restaurant",
+    "Western food Hong Kong",
     "Indian food Hong Kong",
     "Nepali food Hong Kong",
     "best curry Hong Kong",
@@ -45,7 +47,7 @@ export const metadata: Metadata = {
     siteName: "Rajdoot Restaurant",
     images: [
       {
-        url: "/rajdootlogo.png", 
+        url: "/rajdootlogo.png",
         width: 1200,
         height: 630,
         alt: "Rajdoot Indian & Nepali Cuisine",
@@ -63,16 +65,21 @@ export const metadata: Metadata = {
       follow: true,
     },
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <head>
+        <link rel="icon" href="/logo.png" type="image/png" />
+      </head>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         {children}
         <Footer />
 
@@ -87,7 +94,7 @@ export default function RootLayout({
               name: "Rajdoot Indian & Nepali Cuisine + Bar",
               image: "https://www.rajdoot.com.hk/rajdootlogo.png",
               url: "https://www.rajdoot.com.hk",
-              telephone: "+85228030095", 
+              telephone: "+85228030095",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "425Q Queen's Road West Shek",
@@ -105,7 +112,15 @@ export default function RootLayout({
               openingHoursSpecification: [
                 {
                   "@type": "OpeningHoursSpecification",
-                  dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                  dayOfWeek: [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday",
+                  ],
                   opens: "11:00",
                   closes: "22:00",
                 },
@@ -117,6 +132,5 @@ export default function RootLayout({
         />
       </body>
     </html>
-  )
+  );
 }
-
