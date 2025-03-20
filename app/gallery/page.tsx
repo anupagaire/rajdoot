@@ -35,10 +35,6 @@ const foodItems = [
   { id: 30, src: "/foods/30.jpg", title: "Food" },
   { id: 31, src: "/foods/31.jpg", title: "Food" },
   { id: 32, src: "/foods/32.jpg", title: "Food" },
-  { id: 32, src: "/foods/33.jpg", title: "Food" },
-  { id: 32, src: "/foods/34.jpg", title: "Food" },
-  { id: 32, src: "/foods/35.jpg", title: "Food" },
-  { id: 32, src: "/foods/36.jpg", title: "Food" },
 ];
 
 const Gallery = () => {

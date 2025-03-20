@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Mail, MapPin, PhoneCall } from "lucide-react";
+import { Facebook, Mail, MapPin, PhoneCall } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="w-full py-16">
       <div className="mt-12 w-full max-w-screen-xl mx-auto my-20 rounded-lg h-[450px]">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.943919616855!2d114.13578962847058!3d22.286485698725762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403ff891ad130e3%3A0x85d6a2c67c48bd30!2sRajdoot%20Indian%20%26%20Nepalese%20Restaurant!5e0!3m2!1sen!2snp!4v1739695401427!5m2!1sen!2snp"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230.73532837460255!2d114.13885421717929!3d22.286880436098947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403ff814497271b%3A0x377e7f8f1d0cdd80!2sHong%20Kong%2C%20Shek%20Tong%20Tsui%2C%20On%20Ning%20Ln%2C%201-15%E8%99%9F%2C%20Tung%20Lee%20Mansion%2C%20Shop%201J!5e0!3m2!1sen!2snp!4v1742468554168!5m2!1sen!2snp"
           className="w-full h-full border-none px-5"
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
@@ -87,23 +87,23 @@ const Footer = () => {
           {/* Social Media Links */}
           <div className="flex gap-8 mb-8">
             <a
-              href="https://www.facebook.com/rajdoothk/"
+              href="https://www.facebook.com/share/15xV7Y6atb/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className=" transition"
             >
               <Facebook className="h-7 w-7" />
             </a>
-            <a
+            {/* <a
               href="https://www.instagram.com/rajdoothk/"
               target="_blank"
               rel="noopener noreferrer"
               className=" transition"
             >
               <Instagram className="h-7 w-7" />
-            </a>
+            </a> */}
             <a
-              href="https://www.google.com/maps/place//@22.2860534,114.1361719,20z?entry=ttu"
+              href="https://www.google.com/maps/dir//Shop+1J+Hong+Kong+Shek+Tong+Tsui,+On+Ning+Ln,+1-15%E8%99%9F+Tung+Lee+Mansion/@22.2869127,114.1388455,20z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3403ff814497271b:0x377e7f8f1d0cdd80!2m2!1d114.1388455!2d22.2869127?entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -120,7 +120,8 @@ const Footer = () => {
                 height={36}
                 alt="Tripadvisor"
               />
-            </a>           
+            </a>
+            <a href=""></a>
           </div>
 
           {/* Copyright Notice */}
