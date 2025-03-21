@@ -66,13 +66,13 @@ const HeroCard = () => {
                   {/* <h4 className="font-serif text-[#513c28]">
                     Monday to Sunday
                   </h4> */}
-                  <p className="text-[#513c28] font-serif">11 AM to 11 PM</p>{" "}
-                  <br />
-                  <span className="font-semibold">
+                  <p className="text-[#513c28] font-serif">11 AM to 11 PM</p>
+                  {/* <br /> */}
+                  <span className="font-medium text-[#776552]">
                     Lunch 11:00 AM - 3:30 PM
-                  </span>{" "}
+                  </span>
                   <br />
-                  <span className="font-semibold">
+                  <span className="font-medium text-[#776552]">
                     Dinner 5:00 PM- 11:30 PM
                   </span>
                 </div>
