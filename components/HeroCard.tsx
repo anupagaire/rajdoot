@@ -73,7 +73,7 @@ const HeroCard = () => {
                   </span>
                   <br />
                   <span className="font-medium text-[#776552]">
-                    Dinner 5:00 PM- 11:30 PM
+                    Dinner 5:00 PM- 11:00 PM
                   </span>
                 </div>
               </div>

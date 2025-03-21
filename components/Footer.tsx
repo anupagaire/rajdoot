@@ -25,7 +25,7 @@ const Footer = () => {
               <h4 className="font-serif text-[#513c28]">Opening Hours</h4>
               <p className="text-[#776552]">11 am to 11 pm</p>
               <p className="text-[#776552]"> Lunch 11:00 AM - 3:30 PM</p>
-              <p className="text-[#776552]">Dinner 5:00 PM- 11:30 PM</p>
+              <p className="text-[#776552]">Dinner 5:00 PM- 11:00 PM</p>
             </div>
           </div>
 
@@ -65,15 +65,6 @@ const Footer = () => {
               <p className="text-[#776552]">SAI YING PUN,HONG KONG</p>
             </div>
           </div>
-
-          {/* <div className="flex flex-col space-y-1">
-            <h3 className="text-[#8c6d46] font-semibold uppercase text-sm tracking-wider">
-              Booking Request
-            </h3>
-            <div className="border-t border-[#d4b78f] pt-2 mt-1">
-              <p className="font-serif text-[#513c28]">+852 59567426</p>
-            </div>
-          </div> */}
         </div>
 
         {/* Logo & Social Media */}
