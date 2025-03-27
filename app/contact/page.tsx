@@ -48,11 +48,11 @@ const Contact = () => {
                 </div>
                 <div className="flex justify-between">
                   <span>Lunch</span>
-                  <span>11:00 AM - 3:30 PM</span>
+                  <span>11:00 AM - 3:00 PM</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Dinner</span>
-                  <span>5:00 PM- 11:30 PM</span>
+                  <span>5:00 PM- 11:00 PM</span>
                 </div>
               </div>
             </div>
