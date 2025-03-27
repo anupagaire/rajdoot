@@ -3,20 +3,21 @@ import Image from "next/image";
 
 const FeaturedSection = () => {
   return (
-    <section className="mt-24 md:mt-0">
+    <section className="mt-20 sm:mt-16 md:mt-0">
       <div className="w-full">
         {/* First Section */}
-        <div className="flex flex-col-reverse md:flex-row h-screen">
-          <div className="w-full md:w-1/2 h-1/2 md:h-full">
+        <div className="flex flex-col-reverse md:flex-row min-h-[600px] md:h-screen">
+          <div className="w-full md:w-1/2 h-[50vh] md:h-full">
             <Image
               src="/prochef.jpg"
               alt="Professional chef"
               width={600}
               height={800}
               className="w-full h-full object-cover"
+              priority
             />
           </div>
-          <div className="relative w-full md:w-1/2 flex flex-col justify-center items-start p-8 md:p-20">
+          <div className="relative w-full md:w-1/2 flex flex-col justify-center items-start p-6 md:p-20 min-h-[50vh] md:h-full">
             <div className="absolute inset-0 w-full h-full">
               <Image
                 src="/reservation.jpg"
@@ -25,17 +26,17 @@ const FeaturedSection = () => {
                 objectFit="cover"
                 className="z-0"
               />
-              <div className="absolute inset-0 bg-black/80"></div>
+              <div className="absolute inset-0 bg-black/70 md:bg-black/80"></div>
             </div>
-            <div className="relative z-10 flex flex-col gap-y-3">
-              <h1 className="text-3xl md:text-4xl font-bold text-yellow-300">
+            <div className="relative z-10 flex flex-col gap-y-4">
+              <h1 className="text-2xl md:text-4xl font-bold text-yellow-300">
                 (Reservation)
               </h1>
-              <h1 className="text-3xl md:text-4xl font-bold text-white">
+              <h1 className="text-2xl md:text-4xl font-bold text-white">
                 Events & Functions
               </h1>
-              <div className="bg-yellow-300 h-2 w-24"></div>
-              <p className="text-lg md:text-xl text-white">
+              <div className="bg-yellow-300 h-1 md:h-2 w-20 md:w-24"></div>
+              <p className="text-base md:text-xl text-white leading-relaxed">
                 We accept reservations for Private parties, Group Events,
                 Catering, Birthday Celebrations, Family Dining, or Group Dining
               </p>
@@ -44,8 +45,8 @@ const FeaturedSection = () => {
         </div>
 
         {/* Second Section */}
-        <div className="flex flex-col md:flex-row h-screen">
-          <div className="relative w-full md:w-1/2 flex flex-col justify-center items-center p-8 md:p-20">
+        <div className="flex flex-col md:flex-row min-h-[600px] md:h-screen">
+          <div className="relative w-full md:w-1/2 flex flex-col justify-center items-center p-6 md:p-20 min-h-[50vh] md:h-full">
             <div className="absolute inset-0 w-full h-full">
               <Image
                 src="/hero.jpg"
@@ -54,28 +55,29 @@ const FeaturedSection = () => {
                 objectFit="cover"
                 className="z-0"
               />
-              <div className="absolute inset-0 bg-black/80"></div>
+              <div className="absolute inset-0 bg-black/70 md:bg-black/80"></div>
             </div>
-            <div className="relative z-10 flex flex-col gap-y-3">
-              <h1 className="text-3xl md:text-4xl font-bold text-yellow-300"></h1>
-              <h1 className="text-3xl md:text-4xl font-bold text-white">
+            <div className="relative z-10 flex flex-col gap-y-4">
+              <h1 className="text-2xl md:text-4xl font-bold text-yellow-300"></h1>
+              <h1 className="text-2xl md:text-4xl font-bold text-white">
                 Authentic Indian, Western & Nepali Cuisines
               </h1>
-              <div className="bg-yellow-300 h-2 w-24"></div>
-              <p className="text-lg md:text-xl text-white">
+              <div className="bg-yellow-300 h-1 md:h-2 w-20 md:w-24"></div>
+              <p className="text-base md:text-xl text-white leading-relaxed">
                 Experience the rich flavors of Indian, Western and Nepali cuisine,
                 perfect for private parties, group events, catering, and family
                 gatherings.
               </p>
             </div>
           </div>
-          <div className="w-full md:w-1/2 h-1/2 md:h-full">
+          <div className="w-full md:w-1/2 h-[50vh] md:h-full">
             <Image
               src="/foodtable.jpg"
-              alt="Professional chef"
+              alt="Food display"
               width={600}
               height={800}
               className="w-full h-full object-cover"
+              priority
             />
           </div>
         </div>
