@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const FeaturedSection = () => {
   return (
-    <section className="min-h-screen">
-      <div className="min-h-screen w-full">
+    <section className="mt-24 md:mt-0">
+      <div className="w-full">
         {/* First Section */}
         <div className="flex flex-col-reverse md:flex-row h-screen">
           <div className="w-full md:w-1/2 h-1/2 md:h-full">
@@ -63,7 +63,7 @@ const FeaturedSection = () => {
               </h1>
               <div className="bg-yellow-300 h-2 w-24"></div>
               <p className="text-lg md:text-xl text-white">
-                Experience the rich flavors of Indian and Nepali cuisine,
+                Experience the rich flavors of Indian, Western and Nepali cuisine,
                 perfect for private parties, group events, catering, and family
                 gatherings.
               </p>

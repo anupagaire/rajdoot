@@ -23,6 +23,7 @@ const features = [
   },
 ];
 
+const vibes = Array.from({ length: 13 }, (_, i) => i + 1);
 const About = () => {
   return (
     <div className="min-h-screen w-full">
@@ -43,7 +44,7 @@ const About = () => {
         <div className="relative mx-auto max-w-screen-lg w-full min-h-[50vh] flex flex-col justify-center items-center text-white text-center px-4 pt-10">
           <h1 className="text-4xl font-bold mb-4">ABOUT OUR STORY</h1>
           <p className="text-lg italic">
-            Experience the finest Indian & Nepali cuisine in Hong Kong
+            Experience the finest Indian, Western & Nepali cuisine in Hong Kong
           </p>
         </div>
       </section>
@@ -79,18 +80,18 @@ const About = () => {
               </h1>
               <div className="bg-yellow-300 h-2 w-24"></div>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Nestled in the heart of G/F, 1J WATER STREET,SAI YING PUN, HONG
-                KONG, Rajdoot brings you an authentic blend of Indian and
-                Nepalese cuisine. Our restaurant is more than just a dining
-                establishment – it&apos;s a culinary journey through the rich
-                flavors of the Indian subcontinent.
+                Nestled in the heart of G/F, 1J WATER STREET, SAI YING PUN, HONG
+                KONG, Rajdoot offers an authentic blend of Indian, Nepalese, and
+                Western cuisine. More than just a dining establishment, Rajdoot
+                is a culinary journey through the rich flavors of the Indian
+                subcontinent and beyond.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Our recipes are a perfect harmony of traditional Indian
-                wilderness food and modern cooking techniques. Each dish is
-                carefully prepared in its own juices, without any artificial
-                additions, allowing the subtle flavors and aromas of our
-                hand-selected spices to shine through.
+                Our recipes strike the perfect balance between traditional
+                Indian and Nepalese wilderness food and modern cooking
+                techniques. Each dish is carefully prepared in its own juices,
+                without artificial additives, allowing the natural flavors and
+                aromas of our hand-selected spices to shine through.
               </p>
             </div>
           </div>
@@ -120,8 +121,30 @@ const About = () => {
             </div>
           </div>
 
+          {/* vibes  */}
+
+          <div className="mx-auto my-5 mb-10">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-2">
+              Vibes at Rajdoot
+            </h1>
+            <div className="bg-yellow-300 h-2 w-24 mb-6"></div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+              {vibes.map((number, index) => (
+                <div key={index}>
+                  <Image
+                    src={`/place/${number}.jpg`}
+                    alt="vibe"
+                    width={300}
+                    height={200}
+                    className="rounded-lg object-cover w-full h-full"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+
           {/* Features Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-20">
             {features.map((feature, index) => (
               <div
                 key={index}
