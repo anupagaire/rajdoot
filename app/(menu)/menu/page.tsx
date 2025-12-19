@@ -20,7 +20,6 @@ const Foods = () => {
     <div className="min-h-screen w-full">
       <Navbar />
 
-      {/* Hero Section */}
       <section className="relative min-h-[30vh] w-full">
         <div className="absolute inset-0 w-full h-full">
           <Image
@@ -37,10 +36,8 @@ const Foods = () => {
         </div>
       </section>
 
-      {/* Menu Images Grid */}
       <section className="max-w-screen-xl w-full mx-auto p-4">
         <div className="max-w-4xl mx-auto mt-3">
-          {/* Tab Navigation */}
           <div className="border-b border-gray-200">
             <div className="flex space-x-1">
               {tabs.map((tab) => (
@@ -70,7 +67,6 @@ const Foods = () => {
             </div>
           </div>
 
-          {/* Tab Content */}
           <div className="mt-4">
             {activeTab === "main" && (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:p-8">
@@ -120,13 +116,7 @@ const Foods = () => {
             )}
             {activeTab === "drink" && (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:p-8">
-                <Image
-                  src="/menu/drinks/tea_time.jpg"
-                  height={500}
-                  width={500}
-                  alt="lunch set"
-                  className="object-contain"
-                />
+                
                 <Image
                   src="/menu/drinks/drinks.png"
                   height={500}

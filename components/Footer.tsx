@@ -14,7 +14,6 @@ const Footer = () => {
         />
       </div>
       <div className="max-w-screen-lg mx-auto px-6">
-        {/* Contact & Info Section */}
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-8 mt-4 text-center md:text-left">
           <div className="flex flex-col space-y-1">
@@ -123,13 +122,13 @@ const Footer = () => {
             Nepalese Cuisine + Bar. All Rights Reserved.
             <br />
             <span>
-              With 💚 By{" "}
+              With By{" "}
               <a
                 target="_blank"
                 href="https://squarelabs.com.np/"
-                className="hover:text-green-700 italic"
+                className="hover:text-green-700"
               >
-                SquareLabs Pvt.Ltd
+                SquareLabs
               </a>
             </span>
           </p>
