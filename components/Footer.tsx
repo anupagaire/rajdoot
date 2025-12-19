@@ -1,4 +1,4 @@
-import { Facebook, Mail, MapPin, PhoneCall } from "lucide-react";
+import { Facebook, Mail, MapPin, PhoneCall,Instagram } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -86,14 +86,14 @@ const Footer = () => {
             >
               <Facebook className="h-7 w-7" />
             </a>
-            {/* <a
-              href="https://www.instagram.com/rajdoothk/"
+            <a
+              href="https://www.instagram.com/rajdootresturant?utm_source=ig_web_button_share_sheet&igsh=ODdmZWVhMTFiMw=="
               target="_blank"
               rel="noopener noreferrer"
               className=" transition"
             >
               <Instagram className="h-7 w-7" />
-            </a> */}
+            </a>
             <a
               href="https://www.google.com/maps/dir//Shop+1J+Hong+Kong+Shek+Tong+Tsui,+On+Ning+Ln,+1-15%E8%99%9F+Tung+Lee+Mansion/@22.2869127,114.1388455,20z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3403ff814497271b:0x377e7f8f1d0cdd80!2m2!1d114.1388455!2d22.2869127?entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
               target="_blank"
