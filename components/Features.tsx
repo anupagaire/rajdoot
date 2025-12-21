@@ -1,32 +1,48 @@
 import React from "react";
+import Image from "next/image";
 
 const Features = () => {
   const features = [
     {
       image: "/features1.png",
       title: "Menu for every taste",
-      description: "Discover our diverse menu featuring both classic favorites and innovative culinary creations."
+      description:
+        "Discover our diverse menu featuring both classic favorites and innovative culinary creations.",
     },
     {
       image: "/features2.png",
       title: "Fresh Ingredients",
-      description: "We source the finest local ingredients to ensure every dish exceeds your expectations."
+      description:
+        "We source the finest local ingredients to ensure every dish exceeds your expectations.",
     },
     {
       image: "/features3.png",
       title: "Expert Chefs",
-      description: "Our skilled chefs bring years of experience to create memorable dining experiences."
-    }
+      description:
+        "Our skilled chefs bring years of experience to create memorable dining experiences.",
+    },
   ];
 
   return (
     <section className="w-full py-5 lg:py-10 relative overflow-hidden">
-      {/* left decoration  */}
+      {/* Right decoration */}
       <div className="hidden lg:block absolute -right-20 -top-5 opacity-20">
-        <img src="/decoration2.png" alt="" />
+        <Image
+          src="/decoration2.png"
+          alt=""
+          width={400}
+          height={400}
+        />
       </div>
+
+      {/* Left decoration */}
       <div className="hidden lg:block absolute -left-28 -bottom-16 opacity-20">
-        <img src="/decoration1.png" alt="" />
+        <Image
+          src="/decoration1.png"
+          alt=""
+          width={400}
+          height={400}
+        />
       </div>
 
       <div className="w-full max-w-screen-xl mx-auto px-4">
@@ -41,17 +57,20 @@ const Features = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {features.map((feature, index) => (
-            <div 
+            <div
               key={index}
               className="flex flex-col items-center p-10 border-2 border-[#d4b78f] rounded-lg duration-300 hover:shadow-lg"
             >
               <div className="mb-6 transform hover:scale-105 transition-transform duration-300">
-                <img 
-                  src={feature.image} 
-                  alt="features image" 
+                <Image
+                  src={feature.image}
+                  alt={feature.title}
+                  width={128}
+                  height={128}
                   className="h-32 w-auto object-contain"
                 />
               </div>
+
               <h2 className="text-2xl font-semibold text-gray-800 mb-4">
                 {feature.title}
               </h2>

@@ -51,11 +51,14 @@ const About = () => {
 
       {/* Content Section */}
       <section className="py-5 lg:py-10 px-4 relative overflow-hidden z-20">
-        <img
-          className="hidden lg:block absolute -right-60 -top-20 opacity-5 z-10"
-          src="/decoration1.png"
-          alt=""
-        />
+       <Image
+  src="/decoration1.png"
+  alt=""
+  width={600}
+  height={600}
+  className="hidden lg:block absolute -right-60 -top-20 opacity-5 z-10"
+/>
+
         <img
           className="hidden lg:block absolute -left-60 bottom-20 opacity-5 z-10"
           src="/decoration2.png"
@@ -151,11 +154,14 @@ const About = () => {
                 className="flex flex-col items-center p-10 border border-[#d4b78f] rounded-lg duration-300"
               >
                 <div className="mb-6 transform hover:scale-105 transition-transform duration-300">
-                  <img
-                    src={feature.image}
-                    alt="features image"
-                    className="h-32 w-auto object-contain"
-                  />
+                  <Image
+  src={feature.image}
+  alt="features image"
+  width={128}
+  height={128}
+  className="h-32 w-auto object-contain"
+/>
+
                 </div>
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4">
                   {feature.title}
