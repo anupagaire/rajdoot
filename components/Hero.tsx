@@ -15,14 +15,14 @@ const Hero = () => {
             src="/indianfood.jpg"
             fill
             priority
-            className="hidden lg:block object-cover fixed"
+            className="hidden lg:block object-cover "
             alt="hero image"
           />
           <Image
             src="/indianfood.jpg"
             fill
             priority
-            className="lg:hidden fixed"
+            className="lg:hidden object-cover "
             alt="hero image"
             style={{ objectFit: "cover", objectPosition: "left" }}
           />

@@ -37,7 +37,6 @@ const HeroCard = () => {
               </div>
             </div>
 
-            {/* Carousel Placeholder */}
             <div className="w-full">
               <div className="bg-[#f0e9db] p-4 rounded-md text-lg text-center text-[#513c28]">
                 [Rajdoot Indian , Western & Nepalese Cuisines – Authentic
@@ -45,7 +44,6 @@ const HeroCard = () => {
               </div>
             </div>
 
-            {/* Decorative Element */}
             <div className="my-4">
               <Image
                 src="/decoration.png"
@@ -64,16 +62,14 @@ const HeroCard = () => {
                 </h3>
                 <div className="border-t border-[#d4b78f] pt-2 mt-1">
                   {/* <h4 className="font-serif text-[#513c28]">
-                    Monday to Sunday
                   </h4> */}
                   <p className="text-[#513c28] font-serif">11 AM to 11 PM</p>
-                  {/* <br /> */}
                   <span className="font-medium text-[#776552]">
-                    Lunch 11:00 AM - 3:00 PM
+                    Lunch 11:00 AM - 4:00 PM
                   </span>
                   <br />
                   <span className="font-medium text-[#776552]">
-                    Dinner 5:00 PM- 11:00 PM
+                    Dinner 4:00 PM- 12:00 PM
                   </span>
                 </div>
               </div>
@@ -110,7 +106,24 @@ const HeroCard = () => {
                 </div>
               </div>
             </div>
+            <div className="flex flex-col space-y-2 mt-4 text-center md:text-left">
+  <h3 className="text-[#8c6d46] font-semibold uppercase text-sm tracking-wider">
+    Order Online
+  </h3>
+  <div className="flex gap-4 mt-1">
+    <Link href="https://url.mykeeta.com/xzhpRcQz" target="_blank">
+      <Image src="/keeta.webp" width={60} height={40} alt="Keeta"   className="rounded-full object-cover"
+ />
+    </Link>
+    <Link href="https://foodpanda.go.link/gVZxa" target="_blank">
+      <Image src="/foodpanda.png" width={60} height={40} alt="Foodmandu"   className="rounded-full object-cover"
+ />
+    </Link>
+  </div>
+</div>
+
           </div>
+          
         </div>
       </div>
     </section>

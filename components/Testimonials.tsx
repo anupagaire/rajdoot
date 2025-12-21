@@ -3,22 +3,22 @@ import Image from "next/image";
 
 const testimonials = [
   {
-    name: "Mùchén",
+    name: "Mamata Linkha",
     text:
-      "Had to visit Hong Kong Island for work today and ended up near HKU. I remembered this hidden gem on Kotewall Road, often considered an unofficial dining spot for KongU students. The service was excellent—very polite staff who even asked if I needed a naan refill. The Chicken Masala I ordered had a great depth of flavor, though next time, I might go for a medium spice level instead of mild. The free soup was a nice touch, but be mindful—it has a kick of black pepper! Overall, a great experience, and I’ll definitely be back.",
-    img: "/person-placeholder.jpg",
+      " Visited an indian restaurant and bar located in sai ying pun water street. it was both restuarant and bar looks was fanstatic as well as the food. They served both indian and western food.You can try pizza,steak,burrito,salad there naan was quite good.sitting area was good and very comfortable.they have both lunch and dinner set lunch set include soup and rice or naan in indian set.my overall experience was good staff very very friendly.I recommend this place for good food.",
+    img: "/mamta.png",
   },
   {
-    name: "浩宇",
+    name: "Khan Sadia",
     text:
-      "Visited an Indian restaurant near HKU today after seeing great reviews online. They offer a student lunch set, which is such a great deal! We tried the Butter Chicken and Chicken Masala—both were delicious, though the Masala had a bit more heat, while the Butter Chicken was rich and slightly sweet. The set came with two naan, and we chose one butter naan and one plain—they were soft, chewy, and absolutely perfect. Highly recommend this place, and I’ll definitely be returning!",
-    img: "/person-placeholder.jpg",
+      "Rajdoot Restaurant is a hidden gem that offers incredible value for money, especially for students. Their student set menu is a standout—affordable, filling, and packed with flavor. The food is consistently delicious, with dishes that always hit the spot, whether you're craving a hearty curry or a quick snack. The portions are generous, and the quality never disappoints. The ambiance is cozy, and the staff are friendly and attentive, making every visit enjoyable. It's the perfect place for a budget-friendly yet satisfying meal. Rajdoot truly delivers on taste and affordability, making it a favorite spot for students and food lovers alike!",
+    img: "/unnamed.png",
   },
   {
-    name: "Yŭxuān (宇轩)",
+    name: "Colin Squire",
     text:
-      "Tucked away in a small alley, this Indian restaurant is a true hidden gem! Even though it only has a few reviews online, the flavors are absolutely authentic. The service was fantastic, with friendly staff who gave great recommendations. The curry was thick, rich, and packed with flavor, and the meat and peas had soaked up all the delicious spices. Every bite was satisfying! I left feeling happy and inspired—good food really does boost productivity. Can’t wait to come back!",
-    img: "/person-placeholder.jpg",
+      "In town for the weekend between supplier visits in south Asia and China mainland and wanted to get dinner close to the hotel, we dropped in the restaurant on Saturday for a drink and to check out the atmosphere, after a couple of beers we decided to go back on Sunday evening for dinner. We were not disappointed, the food was very good, and it comes with great service, we would definitely recommend this restaurant to our colleagues and go back ourselves when in this part of HK and in need of good Indian food.",
+    img: "/colin.png",
   },
 ];
 
@@ -26,7 +26,7 @@ const Testimonials = () => {
   return (
     <section className="pt-16 sm:px-10 w-full mx-auto">
       <div className="max-w-6xl mx-auto text-center">
-        <h1 className="text-3xl md:text-5xl font-bold text-gray-800 italic">
+        <h1 className="text-3xl md:text-5xl font-bold text-gray-800">
           What Our Guests Say
         </h1>
         <p className="text-gray-600 mt-4 text-lg md:text-xl">

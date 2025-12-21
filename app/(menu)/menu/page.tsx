@@ -11,8 +11,8 @@ const Foods = () => {
 
   const tabs = [
     { id: "main", label: "Main Menu", time: "" },
-    { id: "lunch", label: "Lunch", time: "11:00 AM to 3:00 PM" },
-    { id: "dinner", label: "Dinner", time: "5:00 PM to 11:00 PM" },
+    { id: "lunch", label: "Lunch", time: "11:00 AM to 4:00 PM" },
+    { id: "dinner", label: "Dinner", time: "4:00 PM to 12:00 PM" },
     { id: "drink", label: "Drink", time: "" },
   ];
 
@@ -118,7 +118,7 @@ const Foods = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:p-8">
                 
                 <Image
-                  src="/menu/drinks/drinks.png"
+                  src="/menu/drinks/drinks.jpg"
                   height={500}
                   width={500}
                   alt="lunch set"
