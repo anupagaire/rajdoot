@@ -29,7 +29,6 @@ const About = () => {
     <div className="min-h-screen w-full">
       <Navbar />
 
-      {/* Hero Section */}
       <section className="relative min-h-[20vh] lg:min-h-[50vh] w-full">
         <div className="absolute inset-0 w-full h-full">
           <Image
@@ -49,7 +48,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Content Section */}
       <section className="py-5 lg:py-10 px-4 relative overflow-hidden z-20">
        <Image
   src="/decoration1.png"
@@ -124,7 +122,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* vibes  */}
 
           <div className="mx-auto my-5 mb-10">
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-2">

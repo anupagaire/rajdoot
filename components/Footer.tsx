@@ -22,7 +22,9 @@ const Footer = () => {
             </h3>
             <div className="border-t border-[#d4b78f] pt-2 mt-1">
               <h4 className="font-serif text-[#513c28]">Opening Hours</h4>
-              <p className="text-[#776552]">11 am to 11 pm</p>
+              <p className="text-[#776552]">11 am to 12 pm</p>
+              <p className="text-[#776552]"> Breakfast 9:00 AM - 11:00 AM</p>
+
               <p className="text-[#776552]"> Lunch 11:00 AM - 4:00 PM</p>
               <p className="text-[#776552]">Dinner 4:00 PM- 12:00 PM</p>
             </div>

@@ -5,7 +5,6 @@ const FeaturedSection = () => {
   return (
     <section className="mt-20 sm:mt-16 md:mt-0">
       <div className="w-full">
-        {/* First Section */}
         <div className="flex flex-col-reverse md:flex-row min-h-[600px] md:h-screen">
           <div className="w-full md:w-1/2 h-[50vh] md:h-full">
             <Image

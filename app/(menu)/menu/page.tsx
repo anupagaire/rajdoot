@@ -11,6 +11,8 @@ const Foods = () => {
 
   const tabs = [
     { id: "main", label: "Main Menu", time: "" },
+        { id: "breakfast", label: "Breakfast", time: "9:00 AM to 11:00 AM" },
+
     { id: "lunch", label: "Lunch", time: "11:00 AM to 4:00 PM" },
     { id: "dinner", label: "Dinner", time: "4:00 PM to 12:00 PM" },
     { id: "drink", label: "Drink", time: "" },

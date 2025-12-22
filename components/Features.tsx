@@ -35,7 +35,6 @@ const Features = () => {
         />
       </div>
 
-      {/* Left decoration */}
       <div className="hidden lg:block absolute -left-28 -bottom-16 opacity-20">
         <Image
           src="/decoration1.png"

@@ -42,7 +42,6 @@ const Gallery = () => {
     <div className="min-h-screen w-full">
       <Navbar />
 
-      {/* Hero Section */}
       <section className="relative min-h-[20vh] lg:min-h-[50vh] w-full">
         <div className="absolute inset-0 w-full h-full">
           <Image

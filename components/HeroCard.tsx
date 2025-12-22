@@ -61,9 +61,11 @@ const HeroCard = () => {
                   Opening Time
                 </h3>
                 <div className="border-t border-[#d4b78f] pt-2 mt-1">
-                  {/* <h4 className="font-serif text-[#513c28]">
-                  </h4> */}
-                  <p className="text-[#513c28] font-serif">11 AM to 11 PM</p>
+                  <p className="text-[#513c28] font-serif">9 AM to 12 PM</p>
+                   <span className="font-medium text-[#776552]">
+                    Breakfast 9:00 AM - 11:00 AM
+                  </span>
+                  <br />
                   <span className="font-medium text-[#776552]">
                     Lunch 11:00 AM - 4:00 PM
                   </span>

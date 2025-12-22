@@ -15,7 +15,6 @@ const Navbar = () => {
       <nav className="w-full bg-transparent absolute top-0 z-10 h-32 px-6 md:px-0">
         <div className="w-full max-w-screen-sm h-full mx-auto">
           <div className="w-full flex justify-between items-center h-full text-white">
-            {/* Desktop Menu */}
             <ul className="hidden md:flex gap-x-10 text-xl">
               <li>
                 <Link href="/contact" className={`${pathname == "/contact" ? "text-[#d4b78f]" : ""}`}>
@@ -29,12 +28,10 @@ const Navbar = () => {
               </li>
             </ul>
 
-            {/* Logo */}
             <Link href="/">
               <Image src="/logo.png" height={150} width={150} alt="Rajdoot Logo" />
             </Link>
 
-            {/* Desktop Menu */}
             <ul className="hidden md:flex gap-x-10 text-xl">
               <li>
                 <Link href="/about" className={`${pathname == "/about" ? "text-[#d4b78f]" : ""}`}>
@@ -48,7 +45,6 @@ const Navbar = () => {
               </li>
             </ul>
 
-            {/* Mobile Menu Button */}
             <div className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
               {isOpen ? <X className="h-8 w-8" /> : <Menu />}
             </div>
@@ -56,7 +52,6 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {/* Mobile Menu - Moved outside the nav to avoid stacking context issues */}
       <div
         className={`fixed z-[9999] top-0 right-0 h-full w-64 bg-[#faf7f2] text-black p-6 transform transition-transform duration-300 ease-in-out ${
           isOpen ? "translate-x-0" : "translate-x-full"

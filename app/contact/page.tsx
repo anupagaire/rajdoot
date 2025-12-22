@@ -44,7 +44,11 @@ const Contact = () => {
               </h4>
               <div className="text-[#776552] space-y-2">
                 <div className="flex justify-between">
-                  <span>11 AM to 11 PM</span>
+                  <span>9 AM to 12 PM</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Breakfast</span>
+                  <span>9:00 AM - 11:00 AM</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Lunch</span>
