@@ -86,6 +86,18 @@ const Foods = () => {
               </div>
             )}
 
+{activeTab === "breakfast" && (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:p-8">
+                <Image
+                  src="/menu/breakfast/breakfast.jpg"
+                  height={500}
+                  width={500}
+                  alt="lunch set"
+                  className="object-contain"
+                />
+              </div>
+            )}
+
             {activeTab === "lunch" && (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:p-8">
                 <Image
