@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Harry Ghali",
     text:
-      "Very good indian food all over in Hong Kong which is located in Sai ying pun water street.We had a group party of 6 people enjoyed a lot. The service was perfect given by friendly waiters as well as the chefs.The chef in this restaurant has experience of more than 15 years that’s why food is so delicious, they have draught beer, we enjoyed both blue girl & Stella tower,chicken chilly,chapate,veg pakora,tandoori chicken,lamb shekh kebab,butter chicken,lamb curry, cheese naan,garlic naan every single dish was full of flavour and perfect.The music on the background was decent.Also they have pizza,burger,spaghetti, many western food as well.so it is 70%indian and 30% western.We really enjoyed a lot that day on rajdoot.I would like to recommend every brother and sisters to have a try on this restaurant which you will never forget.",
+      "Very good indian food all over in Hong Kong which is located in Sai ying pun water street.We had a group party of 6 people. The service was perfect given by friendly waiters as well as the chefs.The chef in this restaurant has experience of more than 15 years that’s why food is so delicious, they have draught beer, we enjoyed chicken chilly,chapate,pakora,tandoori and garlic naan,lamb shekh kebab,butter chicken,lamb curry every single dish was full of flavour and perfect.The music on the background was decent.Also they have pizza,burger,spaghetti.So, it is 70% indian and 30% Western.We really enjoyed a lot that day on rajdoot.I would like to recommend every brother and sisters to have a try on this restaurant which you will never forget.",
     img: "/harry.png",
     link: "https://www.google.com/maps/reviews/@22.2868763,114.138889,884m/data=!3m2!1e3!4b1!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xKYWJEWjRWR0poYmpoTVZtdDJRMkZLYVhjd2FHYxAB!2m1!1s0x0:0x68620094f3c82e03!5m1!1e2?hl=en-GB&entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
   },
@@ -54,7 +54,7 @@ const Testimonials = () => {
                              rounded-lg transition duration-300 
                              hover:shadow-xl hover:-translate-y-1 cursor-pointer"
                 >
-<p className="text-gray-700 text-justify leading-relaxed whitespace-pre-line text-sm md:text-base tracking-wide">
+<p className="text-gray-700 text-justify  whitespace-pre-line text-sm md:text-base tracking-wide">
   &quot;{testimonial.text}&quot;
 </p>
 
