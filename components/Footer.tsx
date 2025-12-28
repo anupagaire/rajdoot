@@ -104,7 +104,7 @@ const Footer = () => {
               <MapPin className="h-7 w-7" />
             </a>
             <a
-              href="https://en.tripadvisor.com.hk/Restaurant_Review-g294217-d21229105-Reviews-Rajdoot_Restaurant_Bar-Hong_Kong.html"
+              href="https://www.tripadvisor.com/Restaurant_Review-g294217-d34089372-Reviews-Rajdoot_Indian_Western_Cuisine-Hong_Kong.html"
               target="_blank"
               rel="noopener noreferrer"
             >
