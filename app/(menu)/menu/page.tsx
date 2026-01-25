@@ -18,52 +18,67 @@ const Foods = () => {
   ];
 
   return (
-    <div className="min-h-screen w-full">
+    <div className="min-h-screen w-full font-light text-[#011659]">
       <Navbar />
 
-      <section className="relative min-h-[30vh] w-full">
-        <div className="absolute inset-0 w-full h-full">
-          <Image
-            src="/hero.jpg"
-            fill
-            priority
-            className="object-cover"
-            alt="Rajdoot restaurant ambiance"
-          />
-          <div className="absolute inset-0 bg-black/70"></div>
-        </div>
-        <div className="relative mx-auto max-w-screen-lg w-full min-h-[40vh] md:min-h-[50vh] flex flex-col justify-center items-center text-white text-center px-4 pt-10">
-          <h1 className="text-4xl font-bold mb-4">A LA CARTE MENU</h1>
-        </div>
-      </section>
+      <section className="relative h-[40vh] md:h-[50vh] w-full overflow-hidden">
+              <div className="absolute inset-0 w-full h-full">
+                <Image
+                  src="/hero.jpg"
+                  fill
+                  priority
+                  className="object-cover"
+                  alt="Rajdoot restaurant ambiance"
+                />
+                <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/80"></div>
+              </div>
+              
+              <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4 pt-16">
+                <div className="flex flex-col items-center">
+                  <h1 className="text-4xl md:text-6xl font-serif text-white tracking-[0.1em] drop-shadow-xl uppercase">
+                    A LA CARTE MENU
+                  </h1>
+                  <div className="w-20 h-1 bg-amber-500 mt-6 mb-4 rounded-full"></div>
+                  
+                </div>
+              </div>
+            </section>
 
       <section className="max-w-screen-xl w-full mx-auto p-4">
         <div className="max-w-4xl mx-auto mt-3">
-          <div className="border-b border-gray-200">
-            <div className="flex overflow-x-auto space-x-1 pb-4 scrollbar-hide md:pb-0">
+          <div className="relative border-b border-gray-200">
+            {/* Horizontal scroll indicators/fade for mobile */}
+            <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none md:hidden"></div>
+            <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none md:hidden"></div>
+            
+            <div className="flex items-center overflow-x-auto space-x-1 pb-4 scrollbar-hide md:pb-0 px-4">
               {tabs.map((tab) => (
-                <div key={tab.id} className="relative group flex-shrink-0">
+                <div key={tab.id} className="relative group flex items-center px-2 py-6 shrink-0">
                   <button
                     onClick={() => setActiveTab(tab.id)}
-                    className={`flex flex-col items-center px-4 py-3 text-sm font-medium rounded-t-lg transition-colors min-w-max ${
+                    className={`flex flex-col items-center px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm font-medium rounded-t-xl transition-all duration-300 ease-in-out min-w-max
+                    ${
                       activeTab === tab.id
-                        ? "bg-white text-black border-t border-r border-l border-gray-200 shadow-sm"
-                        : "text-gray-500 hover:text-gray-700 hover:bg-gray-50"
+                        ? "bg-gradient-to-r from-white to-gray-50 text-[#011659] border-t border-r border-l border-gray-200 shadow-md"
+                        : "text-gray-500 hover:text-[#011659] hover:bg-gray-100 hover:shadow-sm"
                     }`}
                   >
-                    <span className="whitespace-nowrap">{tab.label}</span>
-                    <span
-                      className={`text-xs mt-1 ${
-                        activeTab === tab.id ? "text-black" : "text-gray-400"
-                      }`}
-                    >
-                      {tab.time}
-                    </span>
+                    <span className="whitespace-nowrap tracking-wide">{tab.label}</span>
+                    {tab.time && (
+                      <span
+                        className={`text-[10px] sm:text-xs mt-1 transition-colors duration-300 ${
+                          activeTab === tab.id ? "text-gray-900 font-medium" : "text-gray-400"
+                        }`}
+                      >
+                        {tab.time}
+                      </span>
+                    )}
                   </button>
+
                   {activeTab === tab.id && (
-                    <div className="absolute bottom-0 left-0 w-full h-0.5 bg-black"></div>
-                  )}
-                </div>
+                  <div className="absolute bottom-0 left-0 w-full h-0.5 bg-[#d4b78f] rounded-full"></div>
+                )}
+              </div>
               ))}
             </div>
           </div>

@@ -1,74 +1,65 @@
-import { Facebook, Mail, MapPin, PhoneCall,Instagram } from "lucide-react";
+"use client";
+
+import { Facebook, Mail, MapPin, PhoneCall, Instagram } from "lucide-react";
 import Image from "next/image";
 import React from "react";
+import Map from "./Map";
 
 const Footer = () => {
   return (
     <footer className="w-full py-16">
-      <div className="mt-12 w-full max-w-screen-xl mx-auto my-20 rounded-lg h-[450px]">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230.73532837460255!2d114.13885421717929!3d22.286880436098947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403ff814497271b%3A0x377e7f8f1d0cdd80!2sHong%20Kong%2C%20Shek%20Tong%20Tsui%2C%20On%20Ning%20Ln%2C%201-15%E8%99%9F%2C%20Tung%20Lee%20Mansion%2C%20Shop%201J!5e0!3m2!1sen!2snp!4v1742468554168!5m2!1sen!2snp"
-          className="w-full h-full border-none px-5"
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        />
-      </div>
-      <div className="max-w-screen-lg mx-auto px-6">
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-8 mt-4 text-center md:text-left">
-          <div className="flex flex-col space-y-1">
+      <Map />
+      <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-12 lg:gap-16">
+          <div className="flex flex-col space-y-2 text-center lg:text-left">
             <h3 className="text-[#8c6d46] font-semibold uppercase text-sm tracking-wider">
               Opening Time
             </h3>
             <div className="border-t border-[#d4b78f] pt-2 mt-1">
               <h4 className="font-serif text-[#513c28]">Opening Hours</h4>
               <p className="text-[#776552]">9 am to 12 pm</p>
-              <p className="text-[#776552]"> Breakfast 9:00 AM - 11:00 AM</p>
-
-              <p className="text-[#776552]"> Lunch 11:00 AM - 4:00 PM</p>
-              <p className="text-[#776552]">Dinner 4:00 PM- 12:00 PM</p>
+              <p className="text-[#776552]">Breakfast 9:00 AM - 11:00 AM</p>
+              <p className="text-[#776552]">Lunch 11:00 AM - 4:00 PM</p>
+              <p className="text-[#776552]">Dinner 4:00 PM - 12:00 PM</p>
             </div>
           </div>
-
-          <div className="flex flex-col space-y-1">
+ 
+          {/* Contact Us */}
+          <div className="flex flex-col space-y-2 text-center lg:text-left">
             <h3 className="text-[#8c6d46] font-semibold uppercase text-sm tracking-wider">
-              Contact us
+              Contact Us
             </h3>
             <div className="border-t border-[#d4b78f] pt-2 mt-1">
               <h4 className="font-serif text-[#513c28]">Opening Hours</h4>
-              {/* <div className="flex flex-col sm:flex-row sm:items-center sm:gap-x-4 sm:justify-start justify-center items-center"> */}
               <a
-                href="tel:+852 59567426"
-                className="text-[#776552] flex items-center justify-center lg:justify-normal gap-x-2"
+                href="tel:+85259567426"
+                className="text-[#776552] flex items-center justify-center lg:justify-start gap-x-2"
               >
                 <PhoneCall className="h-5 w-5" />
                 +852 59567426
               </a>
               <a
                 href="mailto:rajdoot0909@gmail.com"
-                className="text-[#776552] flex items-center justify-center lg:justify-normal gap-x-2"
+                className="text-[#776552] flex items-center justify-center lg:justify-start gap-x-2"
               >
                 <Mail className="h-5 w-5" />
                 rajdoot0909@gmail.com
               </a>
-              {/* </div> */}
             </div>
           </div>
 
-          <div className="flex flex-col space-y-1">
+          {/* Location */}
+          <div className="flex flex-col space-y-2 text-center lg:text-left">
             <h3 className="text-[#8c6d46] font-semibold uppercase text-sm tracking-wider">
               Location
             </h3>
             <div className="border-t border-[#d4b78f] pt-2 mt-1">
-              <h4 className="font-serif text-[#513c28]">
-                G/F, 1J WATER STREET,
-              </h4>
-              <p className="text-[#776552]">SAI YING PUN,HONG KONG</p>
+              <h4 className="font-serif text-[#513c28]">G/F, 1J WATER STREET,</h4>
+              <p className="text-[#776552]">SAI YING PUN, HONG KONG</p>
             </div>
           </div>
         </div>
 
-        {/* Logo & Social Media */}
         <div className="flex flex-col items-center border-gray-200 pt-16">
           <Image
             src="/logo.png"
@@ -78,33 +69,33 @@ const Footer = () => {
             className="mb-8"
           />
 
-          {/* Social Media Links */}
-          <div className="flex gap-8 mb-8">
+
+          <div className="flex flex-wrap justify-center gap-6 sm:gap-8 mb-8">
             <a
               href="https://www.facebook.com/share/15xV7Y6atb/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
-              className=" transition"
+              className="transition"
             >
-              <Facebook className="h-7 w-7" />
+              <Facebook className="h-7 w-7 text-gray-700 hover:fill-blue-700 transition-all duration-300" />
             </a>
             <a
               href="https://www.instagram.com/rajdootresturant?utm_source=ig_web_button_share_sheet&igsh=ODdmZWVhMTFiMw=="
               target="_blank"
               rel="noopener noreferrer"
-              className=" transition"
+              className="transition"
             >
               <Instagram className="h-7 w-7" />
             </a>
             <a
-              href="https://www.google.com/maps/dir//Shop+1J+Hong+Kong+Shek+Tong+Tsui,+On+Ning+Ln,+1-15%E8%99%9F+Tung+Lee+Mansion/@22.2869127,114.1388455,20z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3403ff814497271b:0x377e7f8f1d0cdd80!2m2!1d114.1388455!2d22.2869127?entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
+              href="https://www.google.com/maps/dir//Shop+1J+Hong+Kong..."
               target="_blank"
               rel="noopener noreferrer"
             >
               <MapPin className="h-7 w-7" />
             </a>
             <a
-              href="https://www.tripadvisor.com/Restaurant_Review-g294217-d34089372-Reviews-Rajdoot_Indian_Western_Cuisine-Hong_Kong.html"
+              href="https://www.tripadvisor.com/Restaurant_Review-g294217-d34089372..."
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -115,13 +106,11 @@ const Footer = () => {
                 alt="Tripadvisor"
               />
             </a>
-            <a href=""></a>
           </div>
 
-          {/* Copyright Notice */}
+          {/* Copyright */}
           <p className="text-sm lg:text-base text-gray-500 text-center">
-            &copy; {new Date().getFullYear()} Rajdoot Indian , Western &
-            Nepalese Cuisine + Bar. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Rajdoot Indian, Western & Nepalese Cuisine + Bar. All Rights Reserved.
             <br />
             <span>
               With By{" "}

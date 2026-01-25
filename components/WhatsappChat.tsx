@@ -8,9 +8,9 @@ const WhatsappChat = () => {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat with us on WhatsApp"
-      className="fixed z-[999] bottom-10 right-5 lg:bottom-10 lg:right-20  p-3 rounded-full  hover:bg-green-600 transition-all duration-300 transform hover:scale-110 flex items-center justify-center group"
+      className="fixed z-[999] bottom-10 right-5 lg:bottom-10 lg:right-22  p-3 rounded-full  hover:bg-green-600/50 hover:shadow-[0_0_25px_rgba(16,185,129,0.7)] transition-all duration-500 ease-in-out transform hover:scale-110 flex items-center justify-center group"
     >
-      <div className="relative">
+      <div className="relative">  
         <Image
           src="/whatsapp.png"
           alt="WhatsApp"
@@ -22,11 +22,13 @@ const WhatsappChat = () => {
           1
         </span>
       </div>
-      <span className="bg-black bg-opacity-75 text-white text-xs md:text-sm py-1 px-3 rounded-lg absolute -top-7 transition-opacity duration-300 whitespace-nowrap">
+      <span className="absolute -top-10 opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ease-out bg-black/75 text-white text-xs md:text-sm py-1 px-2 rounded-full whitespace-nowrap">
         Chat with us
       </span>
     </a>
-  );
+  ); 
 };
 
 export default WhatsappChat;
+
+

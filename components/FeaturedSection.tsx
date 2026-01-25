@@ -1,83 +1,250 @@
+"use client"
+
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const FeaturedSection = () => {
   return (
-    <section className="mt-20 sm:mt-16 md:mt-0">
+    <section className="mt-0">
       <div className="w-full">
-        <div className="flex flex-col-reverse md:flex-row min-h-[600px] md:h-screen">
-          <div className="w-full md:w-1/2 h-[50vh] md:h-full">
+        {/* Indian Cuisine */}
+        <div className="flex flex-col lg:flex-row min-h-[600px] lg:h-screen">
+          <div className="w-full lg:w-1/2 h-[50vh] lg:h-full">
             <Image
               src="/prochef.jpg"
-              alt="Professional chef"
-              width={600}
-              height={800}
+              alt="Indian Cuisine"
+              width={1200}
+              height={1600}
               className="w-full h-full object-cover"
               priority
             />
           </div>
-          <div className="relative w-full md:w-1/2 flex flex-col justify-center items-start p-6 md:p-20 min-h-[50vh] md:h-full">
-            <div className="absolute inset-0 w-full h-full">
-              <Image
-                src="/reservation.jpg"
-                alt="Background"
-                layout="fill"
-                objectFit="cover"
-                className="z-0"
-              />
-              <div className="absolute inset-0 bg-black/70 md:bg-black/80"></div>
-            </div>
-            <div className="relative z-10 flex flex-col gap-y-4">
-              <h1 className="text-2xl md:text-4xl font-bold text-yellow-300">
-                (Reservation)
-              </h1>
-              <h1 className="text-2xl md:text-4xl font-bold text-white">
-                Events & Functions
-              </h1>
-              <div className="bg-yellow-300 h-1 md:h-2 w-20 md:w-24"></div>
-              <p className="text-base md:text-xl text-white leading-relaxed">
-                We accept reservations for Private parties, Group Events,
-                Catering, Birthday Celebrations, Family Dining, or Group Dining
-              </p>
+          <div className="relative w-full lg:w-1/2 flex flex-col justify-center items-start p-8 md:p-12 lg:p-24 min-h-[50vh] lg:min-h-full bg-[#011659]">
+            <div className="relative z-10 max-w-2xl">
+              <div className="flex items-center gap-3 mb-8">
+                <motion.div 
+                  initial={{ opacity: 0, width: 0 }}
+                  whileInView={{ opacity: 1, width: "3rem" }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, ease: "easeOut" }}
+                  className="h-[1px] bg-[#d4b78f]"
+                ></motion.div>
+                <motion.span
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-50px" }}
+                  transition={{ duration: 0.6, ease: "easeOut" }}
+                  className="text-[#d4b78f] text-xs tracking-[0.3em] uppercase font-light"
+                >
+                  Indian Cuisine
+                </motion.span>
+              </div>
+              
+              <motion.h2 
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
+                className="text-4xl sm:text-5xl md:text-5xl lg:text-7xl font-light text-white leading-[1.1] mb-8"
+              >
+                Exploring <br />
+                <span className="italic">Indian Cuisine</span>
+              </motion.h2>
+              
+              <motion.p 
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+                className="text-base md:text-lg lg:text-xl text-white leading-relaxed font-light mb-8"
+              >
+                Indian cuisine is celebrated worldwide for its complexity, diversity, and rich use of spices. 
+                Rooted in centuries of culinary evolution, Indian food varies greatly by region, climate, and tradition. 
+                Each dish carries a unique identity shaped by history and culture.
+                <br/><br/>
+                Spices are used with intention, creating layered flavors rather than overwhelming heat. 
+                Slow-cooking techniques allow ingredients to develop depth, resulting in dishes that are aromatic, flavorful, and deeply satisfying.
+              </motion.p>
+
+              <motion.ul
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, ease: "easeOut", delay: 0.3 }}
+                className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-white"
+              >
+                {[
+                  "Use of spices such as turmeric, cumin, coriander, and cardamom",
+                  "Slow-cooked curries and rich gravies",
+                  "A balance of spicy, tangy, sweet, and savory flavors"
+                ].map((item, i) => (
+                  <li key={i} className="flex items-center gap-4 group">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#d4b78f]  group-hover:scale-150 transition-transform duration-300"></span>
+                    <span className="font-light tracking-wide italic">{item}</span>
+                  </li>
+                ))}
+              </motion.ul>
             </div>
           </div>
         </div>
 
-        {/* Second Section */}
-        <div className="flex flex-col md:flex-row min-h-[600px] md:h-screen">
-          <div className="relative w-full md:w-1/2 flex flex-col justify-center items-center p-6 md:p-20 min-h-[50vh] md:h-full">
-            <div className="absolute inset-0 w-full h-full">
-              <Image
-                src="/hero.jpg"
-                alt="Background"
-                layout="fill"
-                objectFit="cover"
-                className="z-0"
-              />
-              <div className="absolute inset-0 bg-black/70 md:bg-black/80"></div>
-            </div>
-            <div className="relative z-10 flex flex-col gap-y-4">
-              <h1 className="text-2xl md:text-4xl font-bold text-yellow-300"></h1>
-              <h1 className="text-2xl md:text-4xl font-bold text-white">
-                Authentic Indian, Western & Nepali Cuisines
-              </h1>
-              <div className="bg-yellow-300 h-1 md:h-2 w-20 md:w-24"></div>
-              <p className="text-base md:text-xl text-white leading-relaxed">
-                Experience the rich flavors of Indian, Western and Nepali cuisine,
-                perfect for private parties, group events, catering, and family
-                gatherings.
-              </p>
+        {/* Nepalese Cuisine */}
+        <div className="flex flex-col-reverse lg:flex-row min-h-[600px] lg:h-screen">
+          <div className="relative w-full lg:w-1/2 flex flex-col justify-center items-start p-8 md:p-12 lg:p-24 min-h-[50vh] lg:min-h-full bg-white">
+            <div className="relative z-10 max-w-2xl">
+              <div className="flex items-center gap-3 mb-8">
+                <motion.div 
+                  initial={{ opacity: 0, width: 0 }}
+                  whileInView={{ opacity: 1, width: "3rem" }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, ease: "easeOut" }}
+                  className="h-[1px] bg-[#d4b78f]"
+                ></motion.div>
+                <motion.span
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-50px" }}
+                  transition={{ duration: 0.6, ease: "easeOut" }}
+                  className="text-[#8c6d46] text-xs tracking-[0.3em] uppercase font-medium"
+                >
+                  Nepalese Cuisine
+                </motion.span>
+              </div>
+              
+              <motion.h2 
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
+                className="text-4xl sm:text-5xl md:text-5xl lg:text-7xl font-light text-[#011659] leading-[1.1] mb-8"
+              >
+                The Essence of<br />
+                <span className="italic font-serif text-[#d4b78f]">Nepalese Cuisine</span>
+              </motion.h2>
+              
+              <motion.p 
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+                className="text-base md:text-lg lg:text-xl text-[#011659] leading-relaxed font-light mb-8"
+              >
+                Nepalese cuisine reflects the simplicity and resilience of Himalayan life. 
+                It emphasizes nourishment, balance, and natural taste rather than heavy seasoning. 
+                Meals are often centered around wholesome ingredients prepared in ways that preserve their original flavor.
+                <br/><br/>
+                This cuisine draws inspiration from both Tibetan and Indian traditions while maintaining its own identity. 
+                It represents comfort food at its purest — filling, warm, and deeply satisfying.              
+              </motion.p>
+
+              <motion.ul
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, ease: "easeOut", delay: 0.3 }}
+                className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-[#011659]"
+              >
+                {[
+                  "Minimal use of oil and artificial flavoring",
+                  "Preference for steamed and grilled cooking methods",
+                  "Influences from Tibetan and Indian culinary traditions"
+                ].map((item, i) => (
+                  <li key={i} className="flex items-center gap-3 group">
+                    <span className="w-1 h-1 rounded-full bg-[#d4b78f]  group-hover:scale-150 transition-transform duration-300"></span>
+                    <span className="font-light tracking-wide italic">{item}</span>
+                  </li>
+                ))}
+              </motion.ul>
             </div>
           </div>
-          <div className="w-full md:w-1/2 h-[50vh] md:h-full">
+          <div className="w-full lg:w-1/2 h-[50vh] lg:h-full">
             <Image
               src="/foodtable.jpg"
-              alt="Food display"
-              width={600}
-              height={800}
+              alt="Nepalese Cuisine"
+              width={1200}
+              height={1600}
               className="w-full h-full object-cover"
-              priority
             />
+          </div>
+        </div>
+
+        {/* Western Cuisine */}
+        <div className="flex flex-col lg:flex-row min-h-[600px] lg:h-screen">
+          <div className="w-full lg:w-1/2 h-[50vh] lg:h-full">
+            <Image
+              src="/foods/29.jpg"
+              alt="Western Cuisine"
+              width={1200}
+              height={1600}
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="relative w-full lg:w-1/2 flex flex-col justify-center items-start p-8 md:p-12 lg:p-24 min-h-[50vh] lg:min-h-full bg-[#faf7f2]">
+            <div className="relative z-10 max-w-2xl">
+              <div className="flex items-center gap-3 mb-8">
+                <motion.div 
+                  initial={{ opacity: 0, width: 0 }}
+                  whileInView={{ opacity: 1, width: "3rem" }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, ease: "easeOut" }}
+                  className="h-[1px] bg-[#d4b78f]"
+                ></motion.div>
+                <motion.span
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-50px" }}
+                  transition={{ duration: 0.6, ease: "easeOut" }}
+                  className="text-[#8c6d46] text-xs tracking-[0.3em] uppercase font-medium"
+                >
+                  Western Cuisine
+                </motion.span>
+              </div>
+              
+              <motion.h2 
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
+                className="text-4xl sm:text-5xl md:text-5xl lg:text-7xl font-light text-[#011659] leading-[1.1] mb-8  tracking-tighter"
+              >
+                The Comfort of <br />
+                <span className="font-serif italic text-[#8c6d46]">Western Cuisine</span>
+              </motion.h2>
+              
+              <motion.p 
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+                className="text-base md:text-lg lg:text-xl text-[#011659] leading-relaxed font-light mb-8"
+              >
+                Western cuisine brings familiarity, balance, and comfort to the table. 
+                Known for its refined techniques and focus on presentation, it emphasizes quality ingredients and carefully executed cooking methods.
+                <br/><br/>
+                These dishes often appeal to diners who prefer mild yet flavorful options, making Western food an essential component of a diverse menu.
+              </motion.p>
+
+              <motion.ul
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, ease: "easeOut", delay: 0.3 }}
+                className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-[#011659]"
+              >
+                {[
+                  "Grilled meats & seasonal vegetables",
+                  "Cream-based & slow-simmered sauces",
+                  "Oven-baked dishes prepared with care",
+                  "Balanced seasoning & natural flavors"
+                ].map((item, i) => (
+                  <li key={i} className="flex items-center gap-3 group">
+                    <span className="w-1 h-1 rounded-full bg-[#d4b78f]  group-hover:scale-150 transition-transform duration-300"></span>
+                    <span className="font-light tracking-wide italic">{item}</span>
+                  </li>
+                ))}
+              </motion.ul>
+            </div>
           </div>
         </div>
       </div>

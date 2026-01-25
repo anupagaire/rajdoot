@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^12.25.0",
     "lucide-react": "^0.475.0",
     "next": "^16.1.0",
+    "page-flip": "^2.0.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-multi-carousel": "^2.8.5"
+    "react-multi-carousel": "^2.8.5",
+    "react-pageflip": "^2.0.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
