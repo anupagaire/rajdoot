@@ -28,7 +28,7 @@ const Foods = () => {
                   fill
                   priority
                   className="object-cover"
-                  alt="Rajdoot restaurant ambiance"
+                  alt="Indian, western and nepalese cuisine"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/80"></div>
               </div>
@@ -92,7 +92,7 @@ const Foods = () => {
                       src={`/menu/${number}.png`}
                       height={400}
                       width={400}
-                      alt={`Menu item ${number}`}
+                      alt={`Indian, western and nepalese cuisine menu item ${number}`}
                       className="object-contain w-full h-auto max-w-full"
                       sizes="(max-width: 768px) 100vw, 50vw"
                     />
@@ -107,7 +107,7 @@ const Foods = () => {
                   src="/menu/breakfast/breakfast.jpg"
                   height={400}
                   width={400}
-                  alt="Breakfast set"
+                  alt="Indian, western and nepalese cuisine"
                   className="object-contain w-full h-auto max-w-full"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
@@ -120,7 +120,7 @@ const Foods = () => {
                   src="/menu/lunch/lunchset1.jpg"
                   height={400}
                   width={400}
-                  alt="Lunch set"
+                  alt="Indian, western and nepalese cuisine"
                   className="object-contain w-full h-auto max-w-full"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
@@ -133,7 +133,7 @@ const Foods = () => {
                   src="/menu/dinner/dinnerset1.jpg"
                   height={400}
                   width={400}
-                  alt="Dinner set 1"
+                  alt="Indian, western and nepalese cuisine"
                   className="object-contain w-full h-auto max-w-full"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
@@ -141,7 +141,7 @@ const Foods = () => {
                   src="/menu/dinner/dinnerset2.jpg"
                   height={400}
                   width={400}
-                  alt="Dinner set 2"
+                  alt="Indian, western and nepalese cuisine"
                   className="object-contain w-full h-auto max-w-full"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
@@ -153,7 +153,7 @@ const Foods = () => {
                   src="/menu/drinks/drinks.jpg"
                   height={400}
                   width={400}
-                  alt="Drinks menu"
+                  alt="Indian, western and nepalese cuisine"
                   className="object-contain w-full h-auto max-w-full"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />

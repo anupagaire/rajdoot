@@ -14,19 +14,19 @@ const Authenticity = () => {
             <div className="flex h-full gap-6 ">
               <div className="flex flex-col gap-6 w-1/2 translate-y-[10%]">
                 <div className="bg-gray-200 w-full h-[45%] rounded-3xl relative overflow-hidden">
-                  <Image src="/place/7.jpg" alt="" fill className="object-cover" />
+                  <Image src="/place/7.jpg" alt="Indian, western and nepalese cuisine" fill className="object-cover" />
                 </div>
                 <div className="bg-gray-200 w-full h-[45%] rounded-3xl relative overflow-hidden">
-                  <Image src="/RiceMeat.jpg" alt="" fill className="object-cover" />
+                  <Image src="/RiceMeat.jpg" alt="Indian, western and nepalese cuisine" fill className="object-cover" />
                 </div>
               </div>
 
               <div className="flex flex-col gap-6 w-1/2 -translate-y-[10%]">
                 <div className="bg-gray-200 w-full h-[45%] rounded-3xl relative overflow-hidden">
-                  <Image src="/MOMO.jpg" alt="" fill className="object-cover" />
+                  <Image src="/MOMO.jpg" alt="Indian, western and nepalese cuisine" fill className="object-cover" />
                 </div>
                 <div className="bg-gray-200 w-full h-[45%] rounded-3xl relative overflow-hidden">
-                  <Image src="/place/11.jpg" alt="" fill className="object-cover" />
+                  <Image src="/place/11.jpg" alt="Indian, western and nepalese cuisine" fill className="object-cover" />
                 </div>
               </div>
             </div>

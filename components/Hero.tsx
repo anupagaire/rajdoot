@@ -18,14 +18,14 @@ const Hero = () => {
             fill
             priority
             className="hidden lg:block object-cover"
-            alt="hero image"
+            alt="Indian, western and nepalese cuisine"
           />
           <Image
             src="/indianfood.jpg"
             fill
             priority
             className="lg:hidden object-cover"
-            alt="hero image"
+            alt="Indian, western and nepalese cuisine"
             style={{ objectFit: "cover", objectPosition: "left" }}
           />
 
@@ -80,7 +80,7 @@ const Hero = () => {
                 
                 <div className="relative w-[400px] h-[480px] rounded-t-full overflow-hidden bg-gradient-to-br from-gray-300 to-gray-400 shadow-2xl">
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
-                  <Image src="/place/11.jpg" alt="hero image" fill className="object-cover" />
+                  <Image src="/place/11.jpg" alt="Indian, western and nepalese cuisine" fill className="object-cover" />
                   
                 </div>
                 

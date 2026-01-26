@@ -18,12 +18,16 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title:
-    "Rajdoot Indian, Western & Nepali Cuisine + Bar | Authentic Food in Hong Kong",
+ "Discover Authentic Indian, Western and Nepalese Cuisine | Rajdoot",
   description:
-    "Experience authentic Indian, Western and Nepali cuisine at Rajdoot Restaurant in Hong Kong. Enjoy our diverse menu featuring traditional dishes, cocktails, and a warm atmosphere.",
+    "Experience authentic Indian, Western and Nepalese cuisine with rich flavors, traditional recipes, and a warm dining experience. Book your table today.",
   keywords: [
+    "Indian, western and nepalese cuisine",
+    "indian cuisine",
+    "nepalese cuisine",
+    "western cuisine",
+    "multi-cuisine experience",
     "Indian restaurant Hong Kong",
-    "Nepali cuisine",
     "Rajdoot restaurant",
     "Western food Hong Kong",
     "Indian food Hong Kong",

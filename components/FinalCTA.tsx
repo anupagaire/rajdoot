@@ -9,7 +9,7 @@ const FinalCTA = () => {
   return (
     <section className="relative py-8 md:py-12 overflow-hidden bg-white">
       <div className="absolute top-0 right-0 w-1/3 h-full opacity-10 pointer-events-none">
-        <Image src="/decoration2.png" alt="" fill className="object-contain" />
+        <Image src="/decoration2.png" alt="Indian, western and nepalese cuisine" fill className="object-contain" />
       </div>
 
       <div className="relative z-10 max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-24">

@@ -25,7 +25,7 @@ const HeroCard = () => {
                 src="/logo.png"
                 height={80}
                 width={80}
-                alt="rajdoot logo"
+                alt="Indian, western and nepalese cuisine"
               />
               <div className="text-center">
                 <h2 className="text-base sm:text-xl md:text-2xl text-[#8c6d46] italic font-light">
@@ -48,7 +48,7 @@ const HeroCard = () => {
                 src="/decoration.png"
                 height={100}
                 width={300}
-                alt="decoration svg"
+                alt="Indian, western and nepalese cuisine"
                 className="opacity-80"
               />
             </div>

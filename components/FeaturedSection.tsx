@@ -13,7 +13,7 @@ const FeaturedSection = () => {
           <div className="w-full lg:w-1/2 h-[50vh] lg:h-full">
             <Image
               src="/prochef.jpg"
-              alt="Indian Cuisine"
+              alt="Indian Cuisine western and nepalese cuisine"
               width={1200}
               height={1600}
               className="w-full h-full object-cover"
@@ -161,7 +161,7 @@ const FeaturedSection = () => {
           <div className="w-full lg:w-1/2 h-[50vh] lg:h-full">
             <Image
               src="/foodtable.jpg"
-              alt="Nepalese Cuisine"
+              alt="Nepalese Cuisine western and nepalese cuisine"
               width={1200}
               height={1600}
               className="w-full h-full object-cover"

@@ -28,7 +28,7 @@ const Features = () => {
       <div className="hidden lg:block absolute -right-20 -top-5 opacity-10">
         <Image
           src="/decoration2.png"
-          alt=""
+          alt="Indian, western and nepalese cuisine"
           width={400}
           height={400}
         />
@@ -37,7 +37,7 @@ const Features = () => {
       <div className="hidden lg:block absolute -left-28 -bottom-16 opacity-10">
         <Image
           src="/decoration1.png"
-          alt=""
+          alt="Indian, western and nepalese cuisine"
           width={400}
           height={400}
         />
