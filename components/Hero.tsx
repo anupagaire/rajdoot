@@ -60,12 +60,12 @@ const Hero = () => {
 
                 <div className="flex flex-col sm:flex-row gap-5 pt-4">
                   <Link href="/menu" className="w-full sm:w-auto">
-                    <button className="w-full px-10 py-4 bg-white text-black hover:bg-[#d4b78f] hover:text-white transition-all duration-300 font-medium text-base uppercase tracking-wider">
+                    <button className="w-full px-10 py-4 bg-white text-black hover:bg-[#d4b78f] hover:text-white transition-all duration-300 rounded-full font-medium text-base uppercase tracking-wider">
                       View Menu
                     </button>
                   </Link>
                   <Link href="/contact" className="w-full sm:w-auto">
-                    <button className="w-full px-10 py-4 border border-white text-white hover:bg-white hover:text-black transition-all duration-300 font-medium text-base uppercase tracking-wider">
+                    <button className="w-full px-10 rounded-full py-4 border border-white text-white hover:bg-white hover:text-black transition-all duration-300 font-medium text-base uppercase tracking-wider">
                       Book a seat
                     </button>
                   </Link>

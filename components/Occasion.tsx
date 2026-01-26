@@ -38,7 +38,7 @@ const Occasion = () => {
               className="text-4xl sm:text-5xl md:text-6xl font-light text-[#011659] leading-[1.1]"
             >
               Perfect for <br />
-              <span className="italic font-serif text-[#d4b78f]">Every Occasion</span>
+              <span className=" font-serif text-[#d4b78f]">Every Occasion</span>
             </motion.h2>
           </div>
           
@@ -71,7 +71,7 @@ const Occasion = () => {
                 />
               </div>
               <div className="p-8 space-y-4">
-                <h3 className="text-xl font-medium text-[#011659]">{item.title}</h3>
+                <h3 className=" font-serif text-black">{item.title}</h3>
               </div>
             </motion.div>
           ))}

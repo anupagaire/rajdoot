@@ -49,7 +49,7 @@ const FeaturedSection = () => {
                 className="text-4xl sm:text-5xl md:text-5xl lg:text-7xl font-light text-white leading-[1.1] mb-8"
               >
                 Exploring <br />
-                <span className="italic">Indian Cuisine</span>
+                <span >Indian Cuisine</span>
               </motion.h2>
               
               <motion.p 
@@ -120,7 +120,7 @@ const FeaturedSection = () => {
                 className="text-4xl sm:text-5xl md:text-5xl lg:text-7xl font-light text-[#011659] leading-[1.1] mb-8"
               >
                 The Essence of<br />
-                <span className="italic font-serif text-[#d4b78f]">Nepalese Cuisine</span>
+                <span className=" font-serif text-[#d4b78f]">Nepalese Cuisine</span>
               </motion.h2>
               
               <motion.p 
@@ -169,7 +169,6 @@ const FeaturedSection = () => {
           </div>
         </div>
 
-        {/* Western Cuisine */}
         <div className="flex flex-col lg:flex-row min-h-[600px] lg:h-screen">
           <div className="w-full lg:w-1/2 h-[50vh] lg:h-full">
             <Image
@@ -209,7 +208,7 @@ const FeaturedSection = () => {
                 className="text-4xl sm:text-5xl md:text-5xl lg:text-7xl font-light text-[#011659] leading-[1.1] mb-8  tracking-tighter"
               >
                 The Comfort of <br />
-                <span className="font-serif italic text-[#8c6d46]">Western Cuisine</span>
+                <span className="font-serif text-[#8c6d46]">Western Cuisine</span>
               </motion.h2>
               
               <motion.p 

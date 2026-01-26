@@ -110,7 +110,7 @@ const About = () => {
               >                
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-light text-[#011659] leading-[1.15]">
                   Welcome to <br />
-                  <span className="italic font-serif text-[#d4b78f]">Rajdoot</span>
+                  <span className=" font-serif text-[#d4b78f]">Rajdoot</span>
                 </h2>
               </motion.div>
 
@@ -125,7 +125,7 @@ const About = () => {
                   In today&apos;s evolving food culture, diners seek more than just a meal — they look for an experience. 
                   Indian, Western and Nepalese cuisine together create a harmonious blend of flavors that appeal to diverse tastes while maintaining cultural integrity. 
                   This combination allows guests to explore multiple culinary traditions in a single, welcoming setting.                </p>
-                <p className="italic text-[#011659]/70 ">
+                <p className=" text-[#011659]/70 ">
                   Our approach to multi-cuisine dining focuses on preserving authenticity while ensuring comfort and familiarity. 
                   Whether you enjoy bold spices, subtle flavors, or classic comfort food, our offerings are designed to satisfy every palate.                </p>
               </motion.div>
@@ -146,7 +146,7 @@ const About = () => {
               >
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-light text-[#011659] leading-[1.15]">
                   Our Commitment<br /> 
-                  <span className="italic font-serif text-[#d4b78f]">to Authenticity</span>
+                  <span className=" font-serif text-[#d4b78f]">to Authenticity</span>
                 </h2>
               </motion.div>
 
@@ -251,7 +251,7 @@ const About = () => {
         <div className="max-w-screen-2xl w-full mx-auto px-6 md:px-12">
             <div className="text-center mb-16 space-y-4">
               <h2 className="text-3xl md:text-5xl font-light text-[#011659]">
-                Vibes at <span className="italic font-serif text-[#d4b78f]">Rajdoot</span>
+                Vibes at <span className=" font-serif text-[#d4b78f]">Rajdoot</span>
               </h2> 
           </div>
             
