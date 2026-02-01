@@ -9,8 +9,8 @@ const FeaturedSection = () => {
     <section className="mt-0">
       <div className="w-full">
         {/* Indian Cuisine */}
-        <div className="flex flex-col lg:flex-row min-h-[600px] lg:h-screen">
-          <div className="w-full lg:w-1/2 h-[50vh] lg:h-full">
+        <div className="flex flex-col lg:flex-row min-h-[600px] ">
+          <div className="w-full lg:w-1/2">
             <Image
               src="/prochef.jpg"
               alt="Indian Cuisine western and nepalese cuisine"
@@ -20,7 +20,7 @@ const FeaturedSection = () => {
               priority
             />
           </div>
-          <div className="relative w-full lg:w-1/2 flex flex-col justify-center items-start p-8 md:p-12 lg:p-24 min-h-[50vh] lg:min-h-full bg-[#011659]">
+          <div className="relative w-full lg:w-1/2 flex flex-col justify-center items-start p-8 md:p-12 xl:p-24 min-h-[50vh] lg:min-h-full bg-[#011659]">
             <div className="relative z-10 max-w-2xl">
               <div className="flex items-center gap-3 mb-8">
                 <motion.div 
@@ -90,8 +90,8 @@ const FeaturedSection = () => {
         </div>
 
         {/* Nepalese Cuisine */}
-        <div className="flex flex-col-reverse lg:flex-row min-h-[600px] lg:h-screen">
-          <div className="relative w-full lg:w-1/2 flex flex-col justify-center items-start p-8 md:p-12 lg:p-24 min-h-[50vh] lg:min-h-full bg-white">
+        <div className="flex flex-col-reverse lg:flex-row min-h-[600px]">
+          <div className="relative w-full lg:w-1/2 flex flex-col justify-center items-start p-8 md:p-12 xl:p-24 min-h-[50vh] lg:min-h-full bg-white">
             <div className="relative z-10 max-w-2xl">
               <div className="flex items-center gap-3 mb-8">
                 <motion.div 
@@ -158,7 +158,7 @@ const FeaturedSection = () => {
               </motion.ul>
             </div>
           </div>
-          <div className="w-full lg:w-1/2 h-[50vh] lg:h-full">
+          <div className="w-full lg:w-1/2">
             <Image
               src="/foodtable.jpg"
               alt="Nepalese Cuisine western and nepalese cuisine"
@@ -169,8 +169,8 @@ const FeaturedSection = () => {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row min-h-[600px] lg:h-screen">
-          <div className="w-full lg:w-1/2 h-[50vh] lg:h-full">
+        <div className="flex flex-col lg:flex-row min-h-[600px]">
+          <div className="w-full lg:w-1/2">
             <Image
               src="/foods/29.jpg"
               alt="Western Cuisine"
@@ -179,7 +179,7 @@ const FeaturedSection = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="relative w-full lg:w-1/2 flex flex-col justify-center items-start p-8 md:p-12 lg:p-24 min-h-[50vh] lg:min-h-full bg-[#faf7f2]">
+          <div className="relative w-full lg:w-1/2 flex flex-col justify-center items-start p-8 md:p-12 xl:p-24 min-h-[50vh] lg:min-h-full bg-[#faf7f2]">
             <div className="relative z-10 max-w-2xl">
               <div className="flex items-center gap-3 mb-8">
                 <motion.div 
