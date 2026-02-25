@@ -36,13 +36,11 @@ const WhyMultiCuisine = () => {
             className="space-y-8"
           >
             <h2 className="text-4xl md:text-5xl font-serif text-[#011659] leading-tight">
-              Why Indian, Western and Nepalese Cuisine Work Together
-            </h2>
+Why Choose Rajdoot            </h2>
             <p className="text-lg text-[#011659]/80 font-light leading-relaxed">
-              Modern diners appreciate variety without compromise. A menu that combines Indian, Western and Nepalese cuisine allows guests to explore multiple cultures while enjoying a seamless dining experience.
-            </p>
-            <p className="text-lg text-[#011659]/80 font-light leading-relaxed">
-              Each cuisine contributes its strengths — spice, simplicity, and comfort — resulting in a balanced offering suitable for all preferences.
+           Rajdoot is not just a restaurant; it's a fusion of cultures through the cuisine that we serve. We specialize in serving genuine Indian, Western, and Nepalese cuisines with quality and taste that our customers have come to expect from us. We are a warm and welcoming dining destination that's perfect for any occasion.
+
+
             </p>
           </motion.div>
 

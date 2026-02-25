@@ -15,9 +15,8 @@ const Introduction = () => {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
               className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light text-[#011659] leading-[1.1]"
-            >
-              A Harmonious <br />
-              <span className="italic font-serif text-[#d4b78f]">Blend of Flavors</span>
+            >A True 
+              <span className="italic font-serif text-[#d4b78f]">Multi-Cuisine Experience</span>
             </motion.h2>
 
             <div className="space-y-8">
@@ -28,9 +27,7 @@ const Introduction = () => {
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
                 className="text-lg md:text-xl text-[#011659]/80 leading-relaxed font-light"
               >
-                In today&apos;s evolving food culture, diners seek more than just a meal — they look for an experience. 
-                Indian, Western and Nepalese cuisine together create a harmonious blend of flavors that appeal to diverse tastes while maintaining cultural integrity. 
-                This combination allows guests to explore multiple culinary traditions in a single, welcoming setting.              
+                Our menu is designed for guests who enjoy variety without compromise. From the combination of Indian, Western, and Nepalese cuisines, we offer something for every taste-whether one likes rich flavors, mild comfort food, or a well-balanced traditional meal.
               </motion.p>
               
               <motion.div
@@ -41,8 +38,7 @@ const Introduction = () => {
                 className="pl-6 border-l border-[#d4b78f]"
               >
                 <p className="text-base md:text-lg text-[#011659]/70 font-light italic leading-relaxed">
-                  &ldquo;Our approach to multi-cuisine dining focuses on preserving authenticity while ensuring comfort and familiarity. 
-                  Whether you enjoy bold spices, subtle flavors, or classic comfort food, our offerings are designed to satisfy every palate.&rdquo;
+                  &ldquo;This thoughtful combination of amenities makes Rajdoot an especially appropriate choice for families, groups, and overseas guests.&rdquo;
                 </p>
               </motion.div>
             </div>

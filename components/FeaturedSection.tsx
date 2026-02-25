@@ -9,37 +9,20 @@ const FeaturedSection = () => {
     <section className="mt-0">
       <div className="w-full">
         {/* Indian Cuisine */}
-        <div className="flex flex-col lg:flex-row min-h-[600px] ">
+        <div className="flex flex-col lg:flex-row min-h-[500px] ">
           <div className="w-full lg:w-1/2">
             <Image
               src="/prochef.jpg"
               alt="Indian Cuisine western and nepalese cuisine"
-              width={1200}
-              height={1600}
+              width={1000}
+              height={1000}
               className="w-full h-full object-cover"
               priority
             />
           </div>
           <div className="relative w-full lg:w-1/2 flex flex-col justify-center items-start p-8 md:p-12 xl:p-24 min-h-[50vh] lg:min-h-full bg-[#011659]">
             <div className="relative z-10 max-w-2xl">
-              <div className="flex items-center gap-3 mb-8">
-                <motion.div 
-                  initial={{ opacity: 0, width: 0 }}
-                  whileInView={{ opacity: 1, width: "3rem" }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.6, ease: "easeOut" }}
-                  className="h-[1px] bg-[#d4b78f]"
-                ></motion.div>
-                <motion.span
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: "-50px" }}
-                  transition={{ duration: 0.6, ease: "easeOut" }}
-                  className="text-[#d4b78f] text-xs tracking-[0.3em] uppercase font-light"
-                >
-                  Indian Cuisine
-                </motion.span>
-              </div>
+              
               
               <motion.h2 
                 initial={{ opacity: 0, y: 30 }}
@@ -48,8 +31,7 @@ const FeaturedSection = () => {
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
                 className="text-4xl sm:text-5xl md:text-5xl lg:text-7xl font-light text-white leading-[1.1] mb-8"
               >
-                Exploring <br />
-                <span >Indian Cuisine</span>
+                Indian Cuisine; <br /> Rich, Bold & Aromatic
               </motion.h2>
               
               <motion.p 
@@ -59,12 +41,7 @@ const FeaturedSection = () => {
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
                 className="text-base md:text-lg lg:text-xl text-white leading-relaxed font-light mb-8"
               >
-                Indian cuisine is celebrated worldwide for its complexity, diversity, and rich use of spices. 
-                Rooted in centuries of culinary evolution, Indian food varies greatly by region, climate, and tradition. 
-                Each dish carries a unique identity shaped by history and culture.
-                <br/><br/>
-                Spices are used with intention, creating layered flavors rather than overwhelming heat. 
-                Slow-cooking techniques allow ingredients to develop depth, resulting in dishes that are aromatic, flavorful, and deeply satisfying.
+                Indian cuisine is known for the depth of flavor and the consideration taken in the use of spices. At Rajdoot, our Indian dishes are inspired by the traditional ingredients and slow-cooked methods that add warmth and individual aromas to our dishes. These special spices and rich gravies add bold flavors that complement the palate without dominating it.
               </motion.p>
 
               <motion.ul
@@ -119,8 +96,8 @@ const FeaturedSection = () => {
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
                 className="text-4xl sm:text-5xl md:text-5xl lg:text-7xl font-light text-[#011659] leading-[1.1] mb-8"
               >
-                The Essence of<br />
-                <span className=" font-serif text-[#d4b78f]">Nepalese Cuisine</span>
+                Nepalese Cuisine;<br />
+                <span className=" font-serif text-[#d4b78f]">Simple, Wholesome & Comforting</span>
               </motion.h2>
               
               <motion.p 
@@ -130,12 +107,7 @@ const FeaturedSection = () => {
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
                 className="text-base md:text-lg lg:text-xl text-[#011659] leading-relaxed font-light mb-8"
               >
-                Nepalese cuisine reflects the simplicity and resilience of Himalayan life. 
-                It emphasizes nourishment, balance, and natural taste rather than heavy seasoning. 
-                Meals are often centered around wholesome ingredients prepared in ways that preserve their original flavor.
-                <br/><br/>
-                This cuisine draws inspiration from both Tibetan and Indian traditions while maintaining its own identity. 
-                It represents comfort food at its purest — filling, warm, and deeply satisfying.              
+                Nepalese cuisine is a reflection of the simplicity and wholesome nature of the Himalayan culture. Nepalese dishes are known for the natural flavors they provide, the minimal oil used in the recipes, and the comforting dishes they offer. Momos, dal bhat, and thukpa are some of the dishes that represent the heart and soul of Nepalese cuisine.          
               </motion.p>
 
               <motion.ul
@@ -196,7 +168,7 @@ const FeaturedSection = () => {
                   transition={{ duration: 0.6, ease: "easeOut" }}
                   className="text-[#8c6d46] text-xs tracking-[0.3em] uppercase font-medium"
                 >
-                  Western Cuisine
+                  Western Cuisine;
                 </motion.span>
               </div>
               
@@ -207,8 +179,7 @@ const FeaturedSection = () => {
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
                 className="text-4xl sm:text-5xl md:text-5xl lg:text-7xl font-light text-[#011659] leading-[1.1] mb-8  tracking-tighter"
               >
-                The Comfort of <br />
-                <span className="font-serif text-[#8c6d46]">Western Cuisine</span>
+                Familiar & Comforting <br />
               </motion.h2>
               
               <motion.p 

@@ -38,16 +38,12 @@ const Hero = () => {
               <div className="max-w-4xl space-y-8">
                 <h1 className="font-bold text-white leading-[1.05]">
                 <span className="block text-2xl sm:text-4xl lg:text-5xl xl:text-6xl">
-                  An Unforgettable
-                </span>
-                <span className="block text-xl sm:text-3xl lg:text-4xl xl:text-5xl font-light mt-2 italic">
-                  Journey of Indian,
-                </span>
-                <span className="block text-xl sm:text-3xl lg:text-4xl xl:text-5xl text-[#d4b78f] mt-3 uppercase tracking-tighter">
-                  Western & Nepalese
-                </span>
+Authentic                </span>
+                <span className="block text-xl sm:text-3xl lg:text-4xl xl:text-5xl font-light mt-2">
+Indian, Western and Nepalese Cuisines                </span>
+                
                 <span className="block text-2xl sm:text-4xl lg:text-5xl xl:text-6xl font-serif mt-2 leading-tight">
-                  Cuisine
+                    at Rajdoot
                 </span>
               </h1>
 
