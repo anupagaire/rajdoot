@@ -41,9 +41,9 @@ const HeroCard = () => {
                   <h2 className="text-lg sm:text-xl md:text-xl text-[#8c6d46] italic font-light tracking-wide">
                     for the best memories
                   </h2>
-                  <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-[#513c28] font-serif font-bold tracking-tight leading-tight">
+                  <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-[#513c28] font-serif font-bold tracking-tight leading-tight">
                     A Cuisine Journey
-                  </h1>
+                  </h2>
                 </div>
               </div>
 

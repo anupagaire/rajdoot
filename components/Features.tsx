@@ -45,9 +45,9 @@ const Features = () => {
 
       <div className="w-full max-w-screen-xl mx-auto px-4">
         <div className="flex flex-col items-center space-y-6 mb-16">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
             Why people choose us?
-          </h1>
+          </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl text-center">
             Experience the perfect blend of taste, ambiance, and exceptional service.
           </p>

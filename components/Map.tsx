@@ -7,11 +7,11 @@ const Map = () => {
       
       <div className="w-full lg:w-2/5 bg-[#011659] text-white px-6 sm:px-10 lg:px-14 py-10 flex flex-col justify-between">
         <div className="space-y-6">
-          <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold">
+          <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold">
             Getting <br /> Here
-          </h1>
+          </h2>
           <div className="flex flex-col space-y-2 font-semibold">
-            <h1>Rajdoot Indian & Western Cuisine</h1>
+            <h2>Rajdoot Indian & Western Cuisine</h2>
             <p>1J Water Street, Sai Ying Pun, Hong Kong</p>
           </div>
           <div>

@@ -56,9 +56,9 @@ const Gallery = () => {
         
         <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4 pt-16">
           <div className="flex flex-col items-center">
-            <h1 className="text-4xl md:text-6xl font-serif text-white tracking-[0.1em] drop-shadow-xl uppercase">
+            <h2 className="text-4xl md:text-6xl font-serif text-white tracking-[0.1em] drop-shadow-xl uppercase">
               Our Gallery
-            </h1>
+            </h2>
             <div className="w-20 h-1 bg-amber-500 mt-6 mb-4 rounded-full"></div>
             <p className="text-gray-200 text-lg md:text-xl italic font-light tracking-wide">
               &quot;A visual journey through our culinary heritage&quot;

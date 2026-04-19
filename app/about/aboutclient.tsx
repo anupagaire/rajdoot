@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import { motion } from "framer-motion";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Link from "next/link";
 
 
 const features = [
@@ -123,9 +124,27 @@ const About = () => {
                 className="space-y-6 text-lg text-[#011659]/80 font-light leading-relaxed"
               >
                 <p>
-                  At Rajdoot, we believe food has the power to connect people, cultures, and memories. Our mission has always been the same since the beginning: to bring together genuine Indian, Western, and Nepalese cuisines in an environment that makes everyone feel welcome.               </p>
+                  <p>
+  At Rajdoot, we believe food has the power to connect people, cultures, and memories. 
+  Explore our carefully crafted dishes on our{" "}
+  <Link href="/menu" className="text-[#5D0565] underline font-medium">
+    Menu page
+  </Link>
+  .
+</p>
+                  Our mission has always been the same since the beginning: to bring together genuine Indian, Western, and Nepalese cuisines in an environment that makes everyone feel welcome.               </p>
                    <h2 className="text-2xl font-medium text-[#011659] mb-4">The Rajdoot Experience</h2>
-                <p>Rajdoot is not just a restaurant; it's a place where people come together to share good food. Whether it's a casual dining experience, a family outing, or a special occasion, our goal at Rajdoot is to ensure that every dining experience with us is a comfortable and memorable one.</p>
+                <p>
+                  
+                  <p>
+  Rajdoot is not just a restaurant; it's a place where people come together to share good food. 
+  Whether it's a casual dining experience or a special occasion, you can{" "}
+  <Link href="/contact" className="text-[#5D0565] underline font-medium">
+    contact us
+  </Link>{" "}
+  to plan your visit.
+</p>
+                  Our goal at Rajdoot is to ensure that every dining experience with us is a comfortable and memorable one.</p>
               </motion.div>
             </div>
           </div>
@@ -156,7 +175,15 @@ const About = () => {
           Our Vision
         </h2>
         <p className="text-lg md:text-xl text-[#011659]/80 font-light leading-relaxed">
-          Our goal was to create a dining experience that embodies diversity of taste and unity of experience. 
+        <p>
+  Our goal was to create a dining experience that embodies diversity of taste and unity of experience. 
+  Take a look at our ambiance and food presentation in our{" "}
+  <Link href="/gallery" className="text-[#5D0565] underline font-medium">
+    gallery
+  </Link>
+  .
+</p>
+         
           We wanted to blend the bold flavors of Indian spices, the comfort foods of Western cuisine, 
           and the wholesome goodness of Nepalese dishes. And so, we created Rajdoot.
         </p>
@@ -172,12 +199,18 @@ const About = () => {
         <h2 className="text-4xl md:text-5xl font-light text-[#011659] leading-tight">
           What We Stand For
         </h2>
-        <p>
+        <p className="text-lg md:text-xl text-[#011659]/80 font-light leading-relaxed">
           Authenticity. Quality. Warmth. These are the values that Rajdoot stands by. We respect the originality of our recipes 
-          but make them our own by adapting them to the tastes of today’s diners. Our chefs are skilled in using only the best ingredients 
-          that meet our high standards of freshness and taste. They are experts in coaxing out the best from every dish.
+          but make them our own by adapting them to the tastes of today’s diners.<p>
+  Our chefs are skilled in using only the best ingredients. Discover more about our dishes on our{" "}
+  <Link href="/menu" className="text-[#5D0565] underline font-medium">
+    menu
+  </Link>
+  .
+</p>
+           
         </p>
-        <p>
+        <p className="text-lg md:text-xl text-[#011659]/80 font-light leading-relaxed">
           Our chefs take pride in cooking meals that are true to their originality but also meet the tastes of today’s diners. 
           Whether it is the spice content of an Indian dish, the texture of a Nepali favorite, or the taste of a Western meal, 
           every meal is carefully prepared with attention to detail.
@@ -305,7 +338,16 @@ const About = () => {
         </div>
       </section>
 
-      
+      <div className="flex justify-center mt-10">
+  <Link
+    href="/"
+    className="px-6 py-3 rounded-full text-white font-medium 
+               bg-gradient-to-r from-[#513012] via-[#47034E] to-[#5D0565] 
+               hover:scale-105 transition"
+  >
+    View Our Restaurants →
+  </Link>
+</div>
 
       <section className="py-8 md:py-12 bg-[#faf7f2]">
         <div className="max-w-screen-2xl w-full mx-auto px-6 md:px-12">
