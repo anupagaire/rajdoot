@@ -61,10 +61,7 @@ const Contact = () => {
                 <div className="flex justify-between">
                   <span className="font-medium">9 AM to 12 PM</span>
                 </div>
-                <div className="flex justify-between">
-                  <span className="font-semibold">Breakfast</span>
-                  <span>9:00 AM - 11:00 AM</span>
-                </div>
+                
                 <div className="flex justify-between">
                   <span className="font-semibold">Lunch</span>
                   <span>11:00 AM - 4:00 PM</span>

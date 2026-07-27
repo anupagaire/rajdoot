@@ -77,16 +77,11 @@ const HeroCard = () => {
                         9 AM to 12 PM
                       </p>
                       <div className="space-y-1.5 text-sm sm:text-base">
+                        
                         <div className="flex items-center gap-2">
                           <span className="w-2 h-2 bg-[#8c6d46] rounded-full"></span>
                           <span className="text-[#776552]">
-                            <strong>Breakfast:</strong> 9:00 AM - 11:00 AM
-                          </span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                          <span className="w-2 h-2 bg-[#8c6d46] rounded-full"></span>
-                          <span className="text-[#776552]">
-                            <strong>Lunch:</strong> 11:00 AM - 4:00 PM
+                            <strong>Lunch:</strong> 9:00 AM - 4:00 PM
                           </span>
                         </div>
                         <div className="flex items-center gap-2">

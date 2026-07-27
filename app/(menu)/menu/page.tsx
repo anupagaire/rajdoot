@@ -11,7 +11,6 @@ const Foods = () => {
 
   const tabs = [
     { id: "main", label: "Main Menu", time: "" },
-    { id: "breakfast", label: "Breakfast", time: "9:00 AM to 11:00 AM" },
     { id: "lunch", label: "Lunch", time: "11:00 AM to 4:00 PM" },
     { id: "dinner", label: "Dinner", time: "4:00 PM to 12:00 PM" },
     { id: "drink", label: "Drink", time: "" },
@@ -101,23 +100,12 @@ const Foods = () => {
               </div>
             )}
 
-            {activeTab === "breakfast" && (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 lg:p-8">
-                <Image
-                  src="/menu/breakfast/breakfast.jpg"
-                  height={400}
-                  width={400}
-                  alt="Indian, western and nepalese cuisine"
-                  className="object-contain w-full h-auto max-w-full"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-              </div>
-            )}
+           
 
             {activeTab === "lunch" && (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 lg:p-8">
                 <Image
-                  src="/menu/lunch/lunchset1.jpg"
+                  src="/menu/lunchhh.png"
                   height={400}
                   width={400}
                   alt="Indian, western and nepalese cuisine"
@@ -130,7 +118,7 @@ const Foods = () => {
             {activeTab === "dinner" && (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 lg:p-8">
                 <Image
-                  src="/menu/dinner/dinnerset1.jpg"
+                  src="/menu/dinnerr.png"
                   height={400}
                   width={400}
                   alt="Indian, western and nepalese cuisine"
@@ -138,7 +126,7 @@ const Foods = () => {
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 <Image
-                  src="/menu/dinner/dinnerset2.jpg"
+                  src="/menu/dinner2.png"
                   height={400}
                   width={400}
                   alt="Indian, western and nepalese cuisine"
