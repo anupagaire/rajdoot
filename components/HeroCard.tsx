@@ -81,7 +81,7 @@ const HeroCard = () => {
                         <div className="flex items-center gap-2">
                           <span className="w-2 h-2 bg-[#8c6d46] rounded-full"></span>
                           <span className="text-[#776552]">
-                            <strong>Lunch:</strong> 9:00 AM - 4:00 PM
+                            <strong>Lunch:</strong> 11:00 AM - 4:00 PM
                           </span>
                         </div>
                         <div className="flex items-center gap-2">
