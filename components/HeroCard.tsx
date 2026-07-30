@@ -73,9 +73,7 @@ const HeroCard = () => {
                       Opening Time
                     </h3>
                     <div className="space-y-2">
-                      <p className="text-[#513c28] font-serif text-base sm:text-lg font-semibold">
-                        9 AM to 12 PM
-                      </p>
+                      
                       <div className="space-y-1.5 text-sm sm:text-base">
                         
                         <div className="flex items-center gap-2">

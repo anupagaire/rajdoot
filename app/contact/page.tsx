@@ -59,7 +59,6 @@ const Contact = () => {
               <h4 className="font-serif italic text-[#011659] text-lg">Opening Hours</h4>
               <div className="text-gray-600 space-y-3 text-sm">
                 <div className="flex justify-between">
-                  <span className="font-medium">9 AM to 12 PM</span>
                 </div>
                 
                 <div className="flex justify-between">
